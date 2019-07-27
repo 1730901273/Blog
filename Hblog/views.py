@@ -170,9 +170,10 @@ class AllView(BaseMixin, ListView):
 
         html = ""
         for art in article_list:
+            print(art)
             html += template.loader.get_template(
                         'blog/include/all_post.html'
-                    ).render(template.Context({'post': art}))
+                    ).render({'post': art})
 
         mydict = {"html": html, "isend": isend}
         return HttpResponse(

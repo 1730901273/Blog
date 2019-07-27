@@ -78,23 +78,23 @@ WSGI_APPLICATION = 'Blog.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
     # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'myBlog',
-    #     'USER': 'root',
-    #     'PASSWORD': 'root123456',
-    #     'HOST': '127.0.0.1',
-    #     # 'PORT': '',
-    #     # 避免映射数据库时出现警告
-    #     'OPTIONS': {
-    #         'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-    #         'charset': 'utf8mb4',
-    #     },
+    #     'ENGINE': 'django.db.backends.sqlite3',
+    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'myBlog',
+        'USER': 'root',
+        'PASSWORD': 'root123456',
+        'HOST': '127.0.0.1',
+        # 'PORT': '',
+        # 避免映射数据库时出现警告
+        'OPTIONS': {
+            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+            'charset': 'utf8mb4',
+        },
+    }
 }
 
 # Password validation
