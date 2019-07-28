@@ -83,8 +83,8 @@ $("#save-tx").click(function(){
         ctx = canvas.getContext('2d');
 
     ctx.drawImage(image,parseInt(x),parseInt(y),parseInt(width),parseInt(height),0,0,parseInt(width),parseInt(height));
-
-    const data = canvas.toDataURL();
+    //这里不能为静态常量
+    let data = canvas.toDataURL();
 
     // dataURL 的格式为 “data:image/png;base64,****”,逗号之前都是一些说明性的文字，我们只需要逗号之后的就行了
     data=data.split(',')[1];
@@ -121,7 +121,7 @@ $("#save-tx").click(function(){
 
 
 function preImage(url,callback){
-    const img = new Image(); //创建一个Image对象，实现图片的预下载
+    var img = new Image(); //创建一个Image对象，实现图片的预下载
     img.src = url;  
  
     if (img.complete) { // 如果图片已经存在于浏览器缓存，直接调用回调函数  
@@ -140,10 +140,10 @@ function updatePreview(c){
         y = c.y;
         width = c.w;
         height = c.h;
-         const rx = 100.0 / c.w;
-         const ry = 100.0 / c.h;
+        var rx = 100.0 / c.w;
+        var ry = 100.0 / c.h;
 
-         console.log("rx:"+ Math.round(rx * boundx)+" ry:"+ry);
+        console.log("rx:"+ Math.round(rx * boundx)+" ry:"+ry);
         
         $("#preview-pane .preview-container img").css({
             width: Math.round(rx * boundx) + 'px',

@@ -251,7 +251,7 @@ class UserView(BaseMixin, TemplateView):
                 self.template_name = 'blog/user_changetx.html'
             elif slug == 'changepassword':  # 修改密码
                 self.template_name = 'blog/user_changepassword.html'
-            elif slug == 'getinfo':
+            elif slug == 'getinfo':  # 用户信息
                 self.template_name = 'blog/user_getinfo.html'
             elif slug == 'message':
                 self.template_name = 'blog/user_message.html'

@@ -229,7 +229,7 @@ class UserControl(View):
         else:
             logger.error(
                 u'[UserControl]用户重置密码连接错误:[{}]/[{}]'.format(
-                    uid64, token
+                    uidb64, token
                 )
             )
             return HttpResponse(
@@ -254,12 +254,12 @@ class UserControl(View):
             return HttpResponse(u"上传头像错误", status=500)
 
         imgData = base64.b64decode(data)
-
         filename = "tx_100x100_{}.png".format(request.user.id)
-        filedir = "/static/tx/"
-        static_root = getattr(settings, 'STATIC_ROOT', None)
+        filedir = "Blog/static/tx/"
+        static_root = getattr(settings, 'BASE_DIR', None)
         if static_root:
-            filedir = os.path.join(static_root, 'tx')
+            filedir = os.path.join(static_root, '/Blog/static/tx/')
+            # print(filedir)
         if not os.path.exists(filedir):
             os.makedirs(filedir)
         path = os.path.join(filedir, filename)
@@ -272,6 +272,7 @@ class UserControl(View):
         im = Image.open(path)
         out = im.resize((100, 100), Image.ANTIALIAS)
         # out = out.convert('RGB')
+        # print(out)
         print(path)
         out.save(path)
 

@@ -7318,3 +7318,621 @@ TypeError: expected str, bytes or os.PathLike object, not list
 [2019-07-28 15:26:28,058] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
 [2019-07-28 15:26:28,113] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19136
 [2019-07-28 15:26:28,113] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19136
+[2019-07-28 16:11:15,388] [INFO] autoreload : D:\Blog\Hblog\views.py changed, reloading.
+[2019-07-28 16:11:15,388] [INFO] autoreload : D:\Blog\Hblog\views.py changed, reloading.
+[2019-07-28 16:11:16,284] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:11:16,284] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:11:34,360] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "D:\Blog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Blog\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Blog\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Blog\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Blog\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Blog\blog_auth\views.py", line 49, in post
+    return self.changetx(request)
+  File "D:\Blog\blog_auth\views.py", line 267, in changetx
+    file.write(imgData)
+TypeError: write() argument must be str, not bytes
+[2019-07-28 16:11:34,360] [ERROR] log : Internal Server Error: /usercontrol/changetx
+Traceback (most recent call last):
+  File "D:\Blog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Blog\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Blog\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Blog\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Blog\venv\lib\site-packages\django\views\generic\base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\Blog\blog_auth\views.py", line 49, in post
+    return self.changetx(request)
+  File "D:\Blog\blog_auth\views.py", line 267, in changetx
+    file.write(imgData)
+TypeError: write() argument must be str, not bytes
+[2019-07-28 16:11:34,383] [ERROR] basehttp : "POST /usercontrol/changetx HTTP/1.1" 500 614386
+[2019-07-28 16:11:34,383] [ERROR] basehttp : "POST /usercontrol/changetx HTTP/1.1" 500 614386
+[2019-07-28 16:11:48,796] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:11:48,796] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:11:49,843] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:11:49,843] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:12:42,542] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:12:42,542] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:12:43,388] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:12:43,388] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:12:46,047] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 16:12:46,047] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 16:12:47,907] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:12:47,907] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:12:47,937] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:12:47,937] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:12:47,957] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:12:47,957] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:12:48,015] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:12:48,015] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:13:27,458] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:13:27,458] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:13:28,851] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:13:28,851] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:15:20,882] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:15:20,882] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:15:21,709] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:15:21,709] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:16:34,108] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:16:34,108] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:16:43,671] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:16:43,671] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:16:43,693] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:16:43,693] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:16:43,719] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:16:43,719] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:16:43,770] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:16:43,770] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:16:43,783] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 16:16:43,783] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 16:17:31,455] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:17:31,455] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:17:32,295] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:17:32,295] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:17:38,324] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 16:17:38,324] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 16:17:38,380] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:17:38,380] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:17:38,798] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:17:38,798] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:17:41,672] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:17:41,672] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:17:41,698] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:17:41,698] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:17:41,719] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:17:41,719] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:17:41,755] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:17:41,755] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:17:41,780] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:17:41,780] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:21:40,624] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:21:40,624] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:21:41,436] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:21:41,436] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:21:52,204] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:21:52,204] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:21:52,230] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:21:52,230] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:21:52,259] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:21:52,259] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:21:52,297] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:21:52,297] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:21:52,323] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:21:52,323] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:21:52,351] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 16:21:52,351] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 16:22:18,061] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14755
+[2019-07-28 16:22:18,061] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14755
+[2019-07-28 16:22:18,083] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:22:18,083] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:22:18,113] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:22:18,113] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:22:19,095] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:22:19,095] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:22:19,119] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:22:19,119] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:22:19,144] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:22:19,144] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:22:19,165] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:22:19,165] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:22:19,185] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:22:19,185] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:23:20,719] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:23:20,719] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:23:21,546] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:23:21,546] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:23:37,319] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:23:37,319] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:23:38,105] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:23:38,105] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:23:43,193] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14755
+[2019-07-28 16:23:43,193] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14755
+[2019-07-28 16:23:43,217] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:43,217] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:43,253] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:43,253] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:44,033] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:23:44,033] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:23:44,049] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:44,049] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:44,072] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:44,072] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:44,097] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:23:44,097] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:23:44,118] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:23:44,118] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:23:45,509] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14755
+[2019-07-28 16:23:45,509] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14755
+[2019-07-28 16:23:45,525] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:45,525] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:45,553] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:45,553] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:47,362] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:23:47,362] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:23:47,379] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:47,379] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:47,401] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:47,401] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:23:47,453] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:23:47,453] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:24:10,720] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 16:24:10,720] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 16:24:10,751] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:10,751] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:10,961] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:10,961] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:11,000] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 16:24:11,000] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 16:24:13,093] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:24:13,093] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:24:13,124] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:13,124] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:13,173] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:13,173] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:13,222] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:24:13,222] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:24:13,241] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:24:13,241] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:24:38,379] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:24:38,379] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:24:42,317] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 16:24:42,317] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 16:24:42,451] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:42,451] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:42,972] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:42,972] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:48,630] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:24:48,630] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:24:48,661] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:48,661] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:48,682] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:48,682] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:24:48,745] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:24:48,745] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:24:48,770] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:24:48,770] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19178
+[2019-07-28 16:26:58,857] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:26:58,857] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:26:59,704] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:26:59,704] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:33:48,251] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:33:48,251] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:33:49,108] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:33:49,108] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:38:01,007] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19167
+[2019-07-28 16:38:01,007] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19167
+[2019-07-28 16:38:01,061] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:38:01,061] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:38:01,124] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:38:01,124] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:38:01,171] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:38:01,171] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:38:01,197] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19167
+[2019-07-28 16:38:01,197] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19167
+[2019-07-28 16:38:01,218] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 16:38:01,218] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 16:38:19,323] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 16:38:19,323] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 16:38:21,141] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19167
+[2019-07-28 16:38:21,141] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19167
+[2019-07-28 16:38:21,185] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:38:21,185] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:38:21,275] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:38:21,275] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:38:21,344] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:38:21,344] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:38:21,373] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19167
+[2019-07-28 16:38:21,373] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19167
+[2019-07-28 16:41:27,923] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:41:27,923] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:41:28,792] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:41:28,792] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:41:45,124] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 16:41:45,124] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 16:44:18,663] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:44:18,663] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:44:18,705] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:44:18,705] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:44:18,746] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:44:18,746] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:44:18,790] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:44:18,790] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:44:18,815] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:44:18,815] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:44:50,718] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 16:44:50,718] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 16:44:52,495] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:44:52,495] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:44:52,587] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:44:52,587] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:44:52,642] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:44:52,642] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:44:52,679] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:44:52,679] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:45:44,366] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:45:44,366] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:45:45,432] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:45:45,432] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:46:07,322] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:46:07,322] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:46:07,361] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:46:07,361] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:46:07,397] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:46:07,397] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:46:07,422] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:46:07,422] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:46:07,468] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:46:07,468] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:46:07,480] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 16:46:07,480] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 16:46:20,864] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 16:46:20,864] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 16:46:21,155] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:46:21,155] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:46:21,597] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:46:21,597] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:46:24,746] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:46:24,746] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:46:24,781] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:46:24,781] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:46:24,893] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:46:24,893] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:46:24,930] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:46:24,930] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:46:37,326] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 16:46:37,326] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 16:46:38,895] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:46:38,895] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:46:38,925] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:46:38,925] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:46:38,974] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:46:38,974] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:46:39,043] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:46:39,043] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:46:39,069] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:46:39,069] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:46:59,304] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:46:59,304] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 16:47:00,608] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:47:00,608] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:48:35,895] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14755
+[2019-07-28 16:48:35,895] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14755
+[2019-07-28 16:48:35,920] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:35,920] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:35,958] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:35,958] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:36,592] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:48:36,592] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:48:36,623] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:36,623] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:36,663] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:36,663] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:36,701] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:48:36,701] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:48:36,736] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:48:36,736] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:48:36,944] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:48:36,944] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:48:36,965] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:36,965] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:36,994] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:36,994] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:37,031] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:48:37,031] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:48:37,053] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:48:37,053] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:48:40,002] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:48:40,002] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:48:41,883] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 16:48:41,883] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 16:48:41,906] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:41,906] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:42,124] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:42,124] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:44,669] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:48:44,669] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:48:44,692] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:44,692] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:44,708] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:44,708] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:48:44,765] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:48:44,765] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:49:00,125] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:49:00,125] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:49:00,217] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 5151
+[2019-07-28 16:49:00,217] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 5151
+[2019-07-28 16:49:19,047] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:49:19,047] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 16:49:27,479] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 16:49:27,479] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 16:49:27,518] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:49:27,518] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:49:27,942] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:49:27,942] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:49:30,784] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:49:30,784] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:49:30,814] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:49:30,814] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:49:30,834] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:49:30,834] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:49:30,884] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:49:30,884] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:49:30,907] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:49:30,907] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:49:41,072] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 16:49:41,072] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 16:49:42,686] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:49:42,686] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:49:42,714] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:49:42,714] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:49:42,757] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:49:42,757] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 16:49:42,786] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:49:42,786] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 16:49:42,844] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 16:49:42,844] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:53:09,085] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 17:53:09,085] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 17:53:10,082] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 17:53:10,082] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 17:53:21,758] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 17:53:21,758] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 17:53:21,893] [INFO] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-07-28 17:53:21,893] [INFO] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 304 0
+[2019-07-28 17:53:21,893] [INFO] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-07-28 17:53:21,893] [INFO] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 304 0
+[2019-07-28 17:53:21,902] [INFO] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 304 0
+[2019-07-28 17:53:21,902] [INFO] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 304 0
+[2019-07-28 17:53:21,902] [INFO] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 304 0
+[2019-07-28 17:53:21,902] [INFO] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 304 0
+[2019-07-28 17:53:21,904] [INFO] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 304 0
+[2019-07-28 17:53:21,904] [INFO] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 304 0
+[2019-07-28 17:53:21,915] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 304 0
+[2019-07-28 17:53:21,915] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 304 0
+[2019-07-28 17:53:21,917] [INFO] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-07-28 17:53:21,917] [INFO] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-07-28 17:53:21,927] [INFO] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 304 0
+[2019-07-28 17:53:21,927] [INFO] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 304 0
+[2019-07-28 17:53:21,936] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:53:21,936] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:53:21,937] [INFO] basehttp : "GET /static/img/article/default.jpg HTTP/1.1" 304 0
+[2019-07-28 17:53:21,937] [INFO] basehttp : "GET /static/img/article/default.jpg HTTP/1.1" 304 0
+[2019-07-28 17:53:21,955] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 304 0
+[2019-07-28 17:53:21,976] [INFO] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 304 0
+[2019-07-28 17:53:21,955] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 304 0
+[2019-07-28 17:53:21,976] [INFO] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 304 0
+[2019-07-28 17:53:21,994] [INFO] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 304 0
+[2019-07-28 17:53:21,995] [INFO] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 304 0
+[2019-07-28 17:53:21,994] [INFO] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 304 0
+[2019-07-28 17:53:21,995] [INFO] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 304 0
+[2019-07-28 17:53:22,013] [INFO] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 304 0
+[2019-07-28 17:53:22,013] [INFO] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 304 0
+[2019-07-28 17:53:22,103] [INFO] basehttp : "GET /static/img/bg.jpg HTTP/1.1" 304 0
+[2019-07-28 17:53:22,103] [INFO] basehttp : "GET /static/img/bg.jpg HTTP/1.1" 304 0
+[2019-07-28 17:53:22,170] [INFO] basehttp : "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2019-07-28 17:53:22,170] [INFO] basehttp : "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2019-07-28 17:53:22,756] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:53:22,756] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:53:26,536] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:53:26,536] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:53:26,573] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:53:26,573] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:53:26,644] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:53:26,644] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:53:26,673] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:53:26,673] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:53:26,718] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:53:26,718] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:53:34,389] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 17:53:34,389] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 17:53:36,019] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:53:36,019] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:53:36,093] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:53:36,093] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:53:36,148] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:53:36,148] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:53:36,210] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:53:36,210] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:53:36,231] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:53:36,231] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:54:18,511] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 17:54:18,511] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 17:54:19,699] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 17:54:19,699] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 17:54:27,106] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 17:54:27,106] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 17:54:27,363] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:54:27,363] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:54:27,923] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:54:27,923] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:54:30,079] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:54:30,079] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:54:30,118] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:54:30,118] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:54:30,164] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:54:30,164] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:54:30,254] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:54:30,254] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:54:30,301] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:54:30,301] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:54:42,267] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 17:54:42,267] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 17:54:49,081] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:54:49,081] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:54:49,110] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:54:49,110] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:54:49,143] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:54:49,143] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:54:49,175] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:54:49,175] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:54:49,198] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:54:49,198] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:56:26,924] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 17:56:26,924] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 17:56:27,905] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 17:56:27,905] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 17:56:54,743] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 17:56:54,743] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 17:56:55,920] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:56:55,920] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:56:55,946] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:56:55,946] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:56:55,984] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:56:55,984] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:56:56,024] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:56:56,024] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:56:56,046] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:56:56,046] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:57:37,627] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 17:57:37,627] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 17:57:38,623] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 17:57:38,623] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 17:58:36,772] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:58:36,772] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:58:36,803] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:36,803] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:36,853] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:36,853] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:36,899] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:58:36,899] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:58:36,922] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:58:36,922] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:58:36,938] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 17:58:36,938] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 17:58:39,518] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14755
+[2019-07-28 17:58:39,518] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14755
+[2019-07-28 17:58:39,556] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:39,556] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:39,598] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:39,598] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:41,331] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:58:41,331] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:58:41,360] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:41,360] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:41,384] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:41,384] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:41,425] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:58:41,425] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:58:41,459] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:58:41,459] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:58:51,506] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 17:58:51,506] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 17:58:51,573] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:51,573] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:52,053] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:52,053] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:55,414] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:58:55,414] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:58:55,444] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:55,444] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:55,467] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:55,467] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:58:55,510] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:58:55,510] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:58:55,532] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:58:55,532] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:59:05,022] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 17:59:05,022] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 17:59:06,505] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:59:06,505] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:59:06,533] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:59:06,533] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:59:06,576] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:59:06,576] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 17:59:06,611] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:59:06,611] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 17:59:06,634] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:59:06,634] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 17:59:44,493] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 17:59:44,493] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 17:59:45,620] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 17:59:45,620] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 18:00:06,950] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 18:00:06,950] [INFO] basehttp : "GET / HTTP/1.1" 200 21539
+[2019-07-28 18:00:07,010] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:00:07,010] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:00:07,550] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:00:07,550] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:00:10,836] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:00:10,836] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:00:10,862] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:00:10,862] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:00:10,884] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:00:10,884] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:00:10,945] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 18:00:10,945] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 18:00:10,967] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:00:10,967] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:00:23,917] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 18:00:23,917] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 18:00:25,366] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:00:25,366] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:00:25,396] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:00:25,396] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:00:25,432] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:00:25,432] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:00:25,467] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 18:00:25,467] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 18:00:25,505] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:00:25,505] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:01:00,074] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 18:01:00,074] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 18:01:01,168] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 18:01:01,168] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 18:01:02,077] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:01:02,077] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:01:02,104] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:01:02,104] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:01:02,145] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:01:02,145] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 1681
+[2019-07-28 18:01:02,192] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 18:01:02,192] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 18:01:02,212] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:01:02,212] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:01:02,225] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 18:01:02,225] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 18:01:08,589] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 18:01:08,589] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-28 18:01:10,019] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:01:10,019] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:01:10,043] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 200 24263
+[2019-07-28 18:01:10,043] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 200 24263
+[2019-07-28 18:01:10,103] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 18:01:10,103] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-28 18:01:10,126] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:01:10,126] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19200
+[2019-07-28 18:01:48,126] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 18:01:48,126] [INFO] autoreload : D:\Blog\blog_auth\views.py changed, reloading.
+[2019-07-28 18:01:49,527] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 18:01:49,527] [INFO] autoreload : Watching for file changes with StatReloader
