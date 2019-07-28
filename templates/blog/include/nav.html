@@ -5,6 +5,7 @@
 {% url 'user-view' 'changetx' as changetx_url%}
 {% url 'user-view' 'changepassword' as changepassword_url%}
 {% url 'user-view' 'notification' as notification_url%}
+{% url 'user-view' 'getinfo' as getinfo%}
 
 <header id="vmaig-header" class="navbar navbar-inverse navbar-fixed-top navbar-vmaig">
     <div class="container">
@@ -64,25 +65,39 @@
                 {%else%}
                 <li class="dropdown">
                 <a href="javascript:;" style="padding:5px;" data-toggle="dropdown">
-                        <img src="{{user.img}}" alt="" width="40">
+                        <img src="{{user.img}}" alt="" style="border-radius:50%;" width="40">
                         &nbsp;{{user.username}}
                         <span class="badge" style="background-color: #D94600;">{{notification_count}}</span>
                 </a>
                 <ul class="dropdown-menu navbar-right">
-                    <li><a href="{{changetx_url}}">
-                        <span class="glyphicon glyphicon-user"></span>
-                        更改头像</a></li>
+                    <li>
+                        <a href="{{getinfo}}">
+                            <span class="glyphicon glyphicon-user"></span>
+                            个人信息
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{changetx_url}}">
+                            <span class="glyphicon glyphicon-adjust"></span>
+                            更改头像
+                        </a>
+                    </li>
                     <li><a href="{{changepassword_url}}">
                         <span class="glyphicon glyphicon-lock"></span>
                         更改密码</a></li>
-                    <li><a href="{{notification_url}}">
-                        <span class="glyphicon glyphicon-envelope"></span>
-                        消息
-                        <span class="badge" style="background-color: #D94600;">{{notification_count}}</span>
-                        </a></li>
-                    <li><a id="logout" href="javascript:;">
-                        <span class="glyphicon glyphicon-log-out"></span>
-                        退出</a></li>
+                    <li>
+                        <a href="{{notification_url}}">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                            消息
+                            <span class="badge" style="background-color: #D94600;">{{notification_count}}</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="logout" href="javascript:;">
+                            <span class="glyphicon glyphicon-log-out"></span>
+                            退出
+                        </a>
+                    </li>
                 </ul>
                 </li>
                 {% endif %}

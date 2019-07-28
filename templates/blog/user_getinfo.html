@@ -1,5 +1,5 @@
 {% extends "blog/base.html"%}
- 
+
 {% block main%}
 
 {% url 'register-view' as register_url%}
@@ -16,7 +16,7 @@
             <img src="{{user.img}}" alt="" width="40">
             &nbsp;{{user.username}} 
         </a>
-        <a href="{{getinfo_url}}"class="list-group-item">
+        <a href="{{getinfo_url}}"class="list-group-item active">
             个人信息
             <span class="glyphicon glyphicon-chevron-right pull-right"></span>
         </a>
@@ -28,7 +28,7 @@
             修改密码
             <span class="glyphicon glyphicon-chevron-right pull-right"></span>
         </a>
-        <a href="{{notification_url}}"class="list-group-item active">
+        <a href="{{notification_url}}"class="list-group-item">
             消息
             <span class="glyphicon glyphicon-chevron-right pull-right"></span>
         </a>
@@ -42,7 +42,7 @@
         </a>
     </div>
     <div class="col-md-10">
-        {%include "vmaig_auth/notification.html"%}
+        {%include "vmaig_auth/info.html"%}
     </div>
 </div>
 {%endblock%}

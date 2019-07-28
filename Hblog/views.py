@@ -108,7 +108,7 @@ class ArticleView(BaseMixin, DetailView):
                 visited_ips.append(ip)
 
             # 更新缓存
-            cache.set(en_title, visited_ips, 15*60)
+            cache.set(en_title, visited_ips, 15 * 60)
 
         return super(ArticleView, self).get(request, *args, **kwargs)
 
@@ -152,28 +152,28 @@ class AllView(BaseMixin, ListView):
             sort = "-pub_time"
 
         if val == "all":
-            article_list = article.objects.filter(status=0).order_by(sort)[start:end+1]
+            article_list = article.objects.filter(status=0).order_by(sort)[start:end + 1]
         else:
             try:
                 article_list = Category.objects.get(
-                                   name=val
-                               ).article_set.filter(
-                                   status=0
-                               ).order_by(sort)[start:end+1]
+                    name=val
+                ).article_set.filter(
+                    status=0
+                ).order_by(sort)[start:end + 1]
             except Category.DoesNotExist:
                 logger.error(u'[AllView]此分类不存在:[%s]' % val)
                 raise PermissionDenied
 
-        isend = len(article_list) != (end-start+1)
+        isend = len(article_list) != (end - start + 1)
 
-        article_list = article_list[0:end-start]
+        article_list = article_list[0:end - start]
 
         html = ""
         for art in article_list:
             print(art)
             html += template.loader.get_template(
-                        'blog/include/all_post.html'
-                    ).render({'post': art})
+                'blog/include/all_post.html'
+            ).render({'post': art})
 
         mydict = {"html": html, "isend": isend}
         return HttpResponse(
@@ -195,6 +195,7 @@ class SearchView(BaseMixin, ListView):
         # 获取搜索的关键字
         s = self.request.GET.get('s', '')
         # 在文章的标题,summary和tags中搜索关键字
+        # 利用Q实现模糊匹配
         article_list = article.objects.only(
             'title', 'summary', 'tags'
         ).filter(
@@ -213,9 +214,7 @@ class TagView(BaseMixin, ListView):
 
     def get_queryset(self):
         tag = self.kwargs.get('tag', '')
-        article_list = \
-            article.objects.only('tags').filter(tags__icontains=tag, status=0)
-
+        article_list = article.objects.only('tags').filter(tags__icontains=tag, status=0)
         return article_list
 
 
@@ -236,32 +235,32 @@ class CategoryView(BaseMixin, ListView):
         return article_list
 
 
+# 用户登录信息
 class UserView(BaseMixin, TemplateView):
-    template_name = 'blog/user.html'
+    # template_name = 'blog/user_getinfo.html'
 
     def get(self, request, *args, **kwargs):
+        try:
+            if not request.user.is_authenticated:
+                logger.error(u'[UserView]用户未登陆')
+                return render(request, 'blog/login.html')
 
-        if not request.user.is_authenticated:
-            logger.error(u'[UserView]用户未登陆')
-            return render(request, 'blog/login.html')
+            slug = self.kwargs.get('slug')
 
-        slug = self.kwargs.get('slug')
-
-        if slug == 'changetx':
-            self.template_name = 'blog/user_changetx.html'
-        elif slug == 'changepassword':
-            self.template_name = 'blog/user_changepassword.html'
-        elif slug == 'changeinfo':
-            self.template_name = 'blog/user_changeinfo.html'
-        elif slug == 'message':
-            self.template_name = 'blog/user_message.html'
-        elif slug == 'notification':
-            self.template_name = 'blog/user_notification.html'
-
-        return super(UserView, self).get(request, *args, **kwargs)
-
-        logger.error(u'[UserView]不存在此接口')
-        raise Http404
+            if slug == 'changetx':  # 头像修改
+                self.template_name = 'blog/user_changetx.html'
+            elif slug == 'changepassword':  # 修改密码
+                self.template_name = 'blog/user_changepassword.html'
+            elif slug == 'getinfo':
+                self.template_name = 'blog/user_getinfo.html'
+            elif slug == 'message':
+                self.template_name = 'blog/user_message.html'
+            elif slug == 'notification':  # 用户消息
+                self.template_name = 'blog/user_notification.html'
+            return super(UserView, self).get(request, *args, **kwargs)
+        except Exception as e:
+            logger.error(u'[UserView]不存在此接口')
+            raise Http404
 
     def get_context_data(self, **kwargs):
         context = super(UserView, self).get_context_data(**kwargs)
@@ -319,7 +318,7 @@ class NewsView(BaseMixin, TemplateView):
         start_date = datetime.datetime.now()
 
         # 获取url中时间断的资讯
-        for x in range(start_day, end_day+1):
+        for x in range(start_day, end_day + 1):
             date = start_date - datetime.timedelta(x)
             news_list = News.objects.filter(
                 pub_time__year=date.year,
@@ -331,7 +330,6 @@ class NewsView(BaseMixin, TemplateView):
                 timeblocks.append(news_list)
 
         kwargs['timeblocks'] = timeblocks
-        kwargs['active'] = start_day/7  # li中那个显示active
+        kwargs['active'] = start_day / 7  # li中那个显示active
 
         return super(NewsView, self).get_context_data(**kwargs)
-

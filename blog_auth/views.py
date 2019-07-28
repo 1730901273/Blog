@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from django.shortcuts import render
+# from django.shortcuts import render
 from django.http import HttpResponse, Http404
 from django.views.generic import View
 from django.conf import settings
@@ -24,6 +24,7 @@ import base64
 import logging
 
 logger = logging.getLogger(__name__)
+
 
 # Create your views here.
 
@@ -57,6 +58,7 @@ class UserControl(View):
         # 如果是get请求直接返回404页面
         raise Http404
 
+    # 登录
     def login(self, request):
         username = request.POST.get("username", "")
         password = request.POST.get("password", "")
@@ -75,22 +77,24 @@ class UserControl(View):
             content_type="application/json"
         )
 
+    # 注销
     def logout(self, request):
         if not request.user.is_authenticated:
             logger.error(u'[UserControl]用户未登陆')
             raise PermissionDenied
         else:
+            # 调用Django内置函数注销
             auth.logout(request)
             return HttpResponse('OK')
 
+    # 注册
     def register(self, request):
         username = self.request.POST.get("username", "")
         password1 = self.request.POST.get("password1", "")
         password2 = self.request.POST.get("password2", "")
         email = self.request.POST.get("email", "")
-
+        # 表单验证
         form = VmaigUserCreationForm(request.POST)
-
         errors = []
         # 验证表单是否正确
         if form.is_valid():
@@ -106,6 +110,7 @@ class UserControl(View):
                 u"网站：http://{}\n\n".format(domain),
             ])
             from_email = None
+            # 发送邮件
             try:
                 send_mail(title, message, from_email, [email])
             except Exception as e:
@@ -117,7 +122,8 @@ class UserControl(View):
                 return HttpResponse(u"发送邮件错误!\n注册失败", status=500)
 
             new_user = form.save()
-            user = auth.authenticate(username=username, password=password2)
+            # 保存用户并登录
+            user = auth.authenticate(username=username, password=password1)
             auth.login(request, user)
 
         else:
@@ -132,13 +138,14 @@ class UserControl(View):
             content_type="application/json"
         )
 
+    # 修改密码
     def changepassword(self, request):
         if not request.user.is_authenticated:
             logger.error(u'[UserControl]用户未登陆')
             raise PermissionDenied
 
         form = PasswordChangeForm(request.user, request.POST)
-
+        print("12243455")
         errors = []
         # 验证表单是否正确
         if form.is_valid():
@@ -156,6 +163,7 @@ class UserControl(View):
             content_type="application/json"
         )
 
+    # 忘记密码
     def forgetpassword(self, request):
         username = self.request.POST.get("username", "")
         email = self.request.POST.get("email", "")
@@ -169,10 +177,10 @@ class UserControl(View):
             token_generator = default_token_generator
             from_email = None
             opts = {
-                    'token_generator': token_generator,
-                    'from_email': from_email,
-                    'request': request,
-                   }
+                'token_generator': token_generator,
+                'from_email': from_email,
+                'request': request,
+            }
             user = form.save(**opts)
 
         else:
@@ -187,6 +195,7 @@ class UserControl(View):
             content_type="application/json"
         )
 
+    # 找回密码
     def resetpassword(self, request):
         uidb64 = self.request.POST.get("uidb64", "")
         token = self.request.POST.get("token", "")
@@ -228,6 +237,7 @@ class UserControl(View):
                 status=403
             )
 
+    # 修改头像
     def changetx(self, request):
         if not request.user.is_authenticated:
             logger.error(u'[UserControl]用户未登陆')
@@ -245,16 +255,14 @@ class UserControl(View):
 
         imgData = base64.b64decode(data)
 
-        filename = "tx_100x100_{}.jpg".format(request.user.id)
-        filedir = "vmaig_auth/static/tx/"
+        filename = "tx_100x100_{}.png".format(request.user.id)
+        filedir = "/static/tx/"
         static_root = getattr(settings, 'STATIC_ROOT', None)
         if static_root:
             filedir = os.path.join(static_root, 'tx')
         if not os.path.exists(filedir):
             os.makedirs(filedir)
-
         path = os.path.join(filedir, filename)
-
         file = open(path, "wb+")
         file.write(imgData)
         file.flush()
@@ -263,6 +271,8 @@ class UserControl(View):
         # 修改头像分辨率
         im = Image.open(path)
         out = im.resize((100, 100), Image.ANTIALIAS)
+        # out = out.convert('RGB')
+        print(path)
         out.save(path)
 
         # 选择上传头像到七牛还是本地
@@ -308,7 +318,7 @@ class UserControl(View):
             return HttpResponse(u"上传头像成功!\n(注意有10分钟缓存)")
 
         except Exception as e:
-            request.user.img = "/static/tx/"+filename
+            request.user.img = "/static/tx/" + filename
             request.user.save()
 
             # 验证上传是否错误
@@ -322,8 +332,9 @@ class UserControl(View):
 
             return HttpResponse(u"上传头像成功!\n(注意有10分钟缓存)")
 
+    # 获取消息
     def notification(self, request):
-        if not request.user.is_authenticated():
+        if not request.user.is_authenticated:
             logger.error(u'[UserControl]用户未登陆')
             raise PermissionDenied
 
@@ -346,3 +357,5 @@ class UserControl(View):
             json.dumps(mydict),
             content_type="application/json"
         )
+
+

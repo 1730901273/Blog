@@ -22,6 +22,7 @@
     $('#notification .list-group-item').click(function(){
         $.ajax({
             type: "POST",
+            {#对用户的消息进行操作的url#}
             url: "/usercontrol/notification",
             data: {"notification_id":$(this).attr("value")},
             dataType: 'json',
