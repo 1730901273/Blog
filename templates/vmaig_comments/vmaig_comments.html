@@ -3,9 +3,9 @@
     <div class="vmaig-comment">
         <div class="vmaig-comment-tx">
             {% if user.img%}
-            <img src="{{user.img}}" width="40"></img>
+            <img src="{{user.img}}" style="border-radius: 50%" width="40"/>
             {%else%}
-            <img src="/static/tx/default.jpg" width="40"></img>
+            <img src="/static/tx/default.jpg" width="40"/>
             {%endif%}
         </div>
         <div class="vmaig-comment-edit clearfix">
@@ -20,9 +20,9 @@
             <li>
             <div class="vmaig-comment-tx">
                 {% if comment.user.img %}
-                <img src={{comment.user.img}} width="40"></img>
+                <img src="{{comment.user.img}}" style="border-radius: 50%"  width="40"/>
                 {%else%}
-                <img src="/static/tx/default.jpg" width="40"></img>
+                <img src="/static/tx/default.jpg" width="40"/>
                 {%endif%}
             </div>
             <div class="vmaig-comment-content">
