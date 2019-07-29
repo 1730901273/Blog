@@ -8382,3 +8382,949 @@ TypeError: write() argument must be str, not bytes
 [2019-07-28 21:22:00,254] [INFO] autoreload : D:\Blog\Blog\settings.py changed, reloading.
 [2019-07-28 21:22:01,535] [INFO] autoreload : Watching for file changes with StatReloader
 [2019-07-28 21:22:01,535] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 21:25:36,553] [INFO] autoreload : D:\Blog\Blog\settings.py changed, reloading.
+[2019-07-28 21:25:36,553] [INFO] autoreload : D:\Blog\Blog\settings.py changed, reloading.
+[2019-07-28 21:25:37,687] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 21:25:37,687] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-28 21:25:54,406] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-28 21:25:54,406] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-28 21:25:54,437] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-28 21:25:54,437] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-28 21:25:54,503] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-28 21:25:54,503] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-28 21:25:54,525] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 21:25:54,525] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 21:25:58,420] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-28 21:25:58,420] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-28 21:26:00,456] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-28 21:26:00,456] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-28 21:26:00,536] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-28 21:26:00,536] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-28 21:26:04,246] [INFO] basehttp : "GET /user/notification HTTP/1.1" 200 15985
+[2019-07-28 21:26:04,246] [INFO] basehttp : "GET /user/notification HTTP/1.1" 200 15985
+[2019-07-28 21:26:09,456] [INFO] basehttp : "GET / HTTP/1.1" 200 22236
+[2019-07-28 21:26:09,456] [INFO] basehttp : "GET / HTTP/1.1" 200 22236
+[2019-07-28 21:26:09,489] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 304 0
+[2019-07-28 21:26:09,489] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 304 0
+[2019-07-28 21:27:10,843] [INFO] basehttp : "GET / HTTP/1.1" 200 22290
+[2019-07-28 21:27:10,843] [INFO] basehttp : "GET / HTTP/1.1" 200 22290
+[2019-07-28 21:27:11,087] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 21:27:11,087] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 21:42:51,977] [INFO] basehttp : "GET /search/?s=python HTTP/1.1" 200 20677
+[2019-07-28 21:42:51,977] [INFO] basehttp : "GET /search/?s=python HTTP/1.1" 200 20677
+[2019-07-28 21:42:52,006] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 304 0
+[2019-07-28 21:42:52,006] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 304 0
+[2019-07-28 21:43:05,419] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 9205
+[2019-07-28 21:43:05,419] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 9205
+[2019-07-28 21:43:07,778] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 9341
+[2019-07-28 21:43:07,778] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 9341
+[2019-07-28 21:43:14,221] [INFO] basehttp : "GET /admin/blog_system/notification/ HTTP/1.1" 200 7722
+[2019-07-28 21:43:14,221] [INFO] basehttp : "GET /admin/blog_system/notification/ HTTP/1.1" 200 7722
+[2019-07-28 21:43:14,259] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:43:14,259] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:43:17,229] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 9341
+[2019-07-28 21:43:17,229] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 9341
+[2019-07-28 21:43:22,982] [INFO] basehttp : "GET /admin/Hblog/carousel/ HTTP/1.1" 200 5130
+[2019-07-28 21:43:22,982] [INFO] basehttp : "GET /admin/Hblog/carousel/ HTTP/1.1" 200 5130
+[2019-07-28 21:43:23,026] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:43:23,026] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:43:25,276] [INFO] basehttp : "GET /admin/Hblog/carousel/add/ HTTP/1.1" 200 6884
+[2019-07-28 21:43:25,276] [INFO] basehttp : "GET /admin/Hblog/carousel/add/ HTTP/1.1" 200 6884
+[2019-07-28 21:43:25,303] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:43:25,303] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:44:10,453] [INFO] basehttp : "POST /admin/Hblog/carousel/add/ HTTP/1.1" 302 0
+[2019-07-28 21:44:10,453] [INFO] basehttp : "POST /admin/Hblog/carousel/add/ HTTP/1.1" 302 0
+[2019-07-28 21:44:10,512] [INFO] basehttp : "GET /admin/Hblog/carousel/ HTTP/1.1" 200 7423
+[2019-07-28 21:44:10,512] [INFO] basehttp : "GET /admin/Hblog/carousel/ HTTP/1.1" 200 7423
+[2019-07-28 21:44:10,553] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:44:10,553] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:44:18,387] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-28 21:44:18,387] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-28 21:44:18,487] [INFO] basehttp : "GET /static/img/carousel/default.jpg HTTP/1.1" 200 193146
+[2019-07-28 21:44:18,487] [INFO] basehttp : "GET /static/img/carousel/default.jpg HTTP/1.1" 200 193146
+[2019-07-28 21:44:18,683] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 21:44:18,683] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 21:44:24,755] [INFO] basehttp : "GET /article/PythonAnyWhere.html HTTP/1.1" 200 36492
+[2019-07-28 21:44:24,755] [INFO] basehttp : "GET /article/PythonAnyWhere.html HTTP/1.1" 200 36492
+[2019-07-28 21:44:40,631] [INFO] basehttp : "GET /article/PythonAnyWhere.html HTTP/1.1" 200 36492
+[2019-07-28 21:44:40,631] [INFO] basehttp : "GET /article/PythonAnyWhere.html HTTP/1.1" 200 36492
+[2019-07-28 21:47:50,595] [INFO] basehttp : "GET /admin/Hblog/carousel/1/change/ HTTP/1.1" 200 7170
+[2019-07-28 21:47:50,595] [INFO] basehttp : "GET /admin/Hblog/carousel/1/change/ HTTP/1.1" 200 7170
+[2019-07-28 21:47:50,635] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:47:50,635] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:48:21,833] [INFO] basehttp : "POST /admin/Hblog/carousel/1/change/ HTTP/1.1" 302 0
+[2019-07-28 21:48:21,833] [INFO] basehttp : "POST /admin/Hblog/carousel/1/change/ HTTP/1.1" 302 0
+[2019-07-28 21:48:21,899] [INFO] basehttp : "GET /admin/Hblog/carousel/ HTTP/1.1" 200 7422
+[2019-07-28 21:48:21,899] [INFO] basehttp : "GET /admin/Hblog/carousel/ HTTP/1.1" 200 7422
+[2019-07-28 21:48:21,952] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:48:21,952] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:48:27,378] [INFO] basehttp : "GET / HTTP/1.1" 200 23664
+[2019-07-28 21:48:27,378] [INFO] basehttp : "GET / HTTP/1.1" 200 23664
+[2019-07-28 21:48:27,401] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-28 21:48:27,401] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-28 21:48:27,409] [INFO] basehttp : "GET /static/img/carousel/django.png HTTP/1.1" 200 28622
+[2019-07-28 21:48:27,409] [INFO] basehttp : "GET /static/img/carousel/django.png HTTP/1.1" 200 28622
+[2019-07-28 21:48:27,647] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 21:48:27,647] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 21:48:33,721] [INFO] basehttp : "GET /article/PythonAnyWhere.html HTTP/1.1" 200 36492
+[2019-07-28 21:48:33,721] [INFO] basehttp : "GET /article/PythonAnyWhere.html HTTP/1.1" 200 36492
+[2019-07-28 21:50:51,433] [INFO] basehttp : "GET /admin/Hblog/carousel/1/change/ HTTP/1.1" 200 7169
+[2019-07-28 21:50:51,433] [INFO] basehttp : "GET /admin/Hblog/carousel/1/change/ HTTP/1.1" 200 7169
+[2019-07-28 21:50:51,473] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:50:51,473] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:50:59,859] [INFO] basehttp : "POST /admin/Hblog/carousel/1/change/ HTTP/1.1" 302 0
+[2019-07-28 21:50:59,859] [INFO] basehttp : "POST /admin/Hblog/carousel/1/change/ HTTP/1.1" 302 0
+[2019-07-28 21:50:59,925] [INFO] basehttp : "GET /admin/Hblog/carousel/ HTTP/1.1" 200 7422
+[2019-07-28 21:50:59,925] [INFO] basehttp : "GET /admin/Hblog/carousel/ HTTP/1.1" 200 7422
+[2019-07-28 21:50:59,960] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:50:59,960] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:51:03,915] [INFO] basehttp : "GET / HTTP/1.1" 200 23664
+[2019-07-28 21:51:03,915] [INFO] basehttp : "GET / HTTP/1.1" 200 23664
+[2019-07-28 21:51:03,939] [INFO] basehttp : "GET /static/img/carousel/django.jpg HTTP/1.1" 200 63732
+[2019-07-28 21:51:03,939] [INFO] basehttp : "GET /static/img/carousel/django.jpg HTTP/1.1" 200 63732
+[2019-07-28 21:51:04,196] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 21:51:04,196] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 21:52:14,877] [INFO] basehttp : "GET / HTTP/1.1" 200 23664
+[2019-07-28 21:52:14,877] [INFO] basehttp : "GET / HTTP/1.1" 200 23664
+[2019-07-28 21:52:14,899] [INFO] basehttp : "GET /static/img/carousel/django.jpg HTTP/1.1" 200 8798
+[2019-07-28 21:52:14,899] [INFO] basehttp : "GET /static/img/carousel/django.jpg HTTP/1.1" 200 8798
+[2019-07-28 21:52:15,149] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 21:52:15,149] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 21:55:38,534] [INFO] basehttp : "GET /admin/Hblog/carousel/1/change/ HTTP/1.1" 200 7169
+[2019-07-28 21:55:38,534] [INFO] basehttp : "GET /admin/Hblog/carousel/1/change/ HTTP/1.1" 200 7169
+[2019-07-28 21:55:38,566] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:55:38,566] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:55:46,060] [INFO] basehttp : "POST /admin/Hblog/carousel/1/change/ HTTP/1.1" 302 0
+[2019-07-28 21:55:46,060] [INFO] basehttp : "POST /admin/Hblog/carousel/1/change/ HTTP/1.1" 302 0
+[2019-07-28 21:55:46,123] [INFO] basehttp : "GET /admin/Hblog/carousel/ HTTP/1.1" 200 7423
+[2019-07-28 21:55:46,123] [INFO] basehttp : "GET /admin/Hblog/carousel/ HTTP/1.1" 200 7423
+[2019-07-28 21:55:46,161] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:55:46,161] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-28 21:55:48,329] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-28 21:55:48,329] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-28 21:55:48,392] [INFO] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 200 580231
+[2019-07-28 21:55:48,392] [INFO] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 200 580231
+[2019-07-28 21:55:48,631] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 21:55:48,631] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-28 21:56:09,908] [INFO] basehttp : "GET /tag/linux HTTP/1.1" 301 0
+[2019-07-28 21:56:09,908] [INFO] basehttp : "GET /tag/linux HTTP/1.1" 301 0
+[2019-07-28 21:56:09,975] [INFO] basehttp : "GET /tag/linux/ HTTP/1.1" 200 18479
+[2019-07-28 21:56:09,975] [INFO] basehttp : "GET /tag/linux/ HTTP/1.1" 200 18479
+[2019-07-28 21:56:16,055] [INFO] basehttp : "GET /tag/ASM HTTP/1.1" 301 0
+[2019-07-28 21:56:16,055] [INFO] basehttp : "GET /tag/ASM HTTP/1.1" 301 0
+[2019-07-28 21:56:16,093] [INFO] basehttp : "GET /tag/ASM/ HTTP/1.1" 200 18479
+[2019-07-28 21:56:16,093] [INFO] basehttp : "GET /tag/ASM/ HTTP/1.1" 200 18479
+[2019-07-28 22:38:01,750] [INFO] basehttp : "GET /article/PythonAnyWhere.html HTTP/1.1" 200 36492
+[2019-07-28 22:38:01,750] [INFO] basehttp : "GET /article/PythonAnyWhere.html HTTP/1.1" 200 36492
+[2019-07-28 22:38:01,781] [INFO] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-07-28 22:38:01,781] [INFO] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-07-28 22:38:01,791] [INFO] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 304 0
+[2019-07-28 22:38:01,794] [INFO] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,794] [INFO] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 304 0
+[2019-07-28 22:38:01,795] [INFO] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 304 0
+[2019-07-28 22:38:01,795] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 304 0
+[2019-07-28 22:38:01,797] [INFO] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,791] [INFO] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 304 0
+[2019-07-28 22:38:01,794] [INFO] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,794] [INFO] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 304 0
+[2019-07-28 22:38:01,795] [INFO] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 304 0
+[2019-07-28 22:38:01,795] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 304 0
+[2019-07-28 22:38:01,797] [INFO] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,811] [INFO] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,811] [INFO] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,816] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,816] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,819] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-28 22:38:01,819] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-28 22:38:01,819] [INFO] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,819] [INFO] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,849] [INFO] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,849] [INFO] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,876] [INFO] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,876] [INFO] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,876] [INFO] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,876] [INFO] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 304 0
+[2019-07-28 22:38:01,890] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 304 0
+[2019-07-28 22:38:01,893] [INFO] basehttp : "GET /static/img/bg.jpg HTTP/1.1" 304 0
+[2019-07-28 22:38:01,890] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 304 0
+[2019-07-28 22:38:01,893] [INFO] basehttp : "GET /static/img/bg.jpg HTTP/1.1" 304 0
+[2019-07-28 22:38:01,899] [INFO] basehttp : "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2019-07-28 22:38:01,899] [INFO] basehttp : "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2019-07-28 22:38:10,944] [INFO] basehttp : "GET /tag/Java HTTP/1.1" 301 0
+[2019-07-28 22:38:10,944] [INFO] basehttp : "GET /tag/Java HTTP/1.1" 301 0
+[2019-07-28 22:38:11,001] [INFO] basehttp : "GET /tag/Java/ HTTP/1.1" 200 18479
+[2019-07-28 22:38:11,001] [INFO] basehttp : "GET /tag/Java/ HTTP/1.1" 200 18479
+[2019-07-28 22:39:38,688] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-28 22:39:38,688] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-28 22:39:38,720] [INFO] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 304 0
+[2019-07-28 22:39:38,721] [INFO] basehttp : "GET /static/img/article/default.jpg HTTP/1.1" 304 0
+[2019-07-28 22:39:38,720] [INFO] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 304 0
+[2019-07-28 22:39:38,721] [INFO] basehttp : "GET /static/img/article/default.jpg HTTP/1.1" 304 0
+[2019-07-29 09:09:52,652] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-29 09:09:52,652] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-29 09:10:04,932] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 09:10:04,932] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 09:10:05,337] [INFO] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 304 0
+[2019-07-29 09:10:05,338] [INFO] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 304 0
+[2019-07-29 09:10:05,337] [INFO] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 304 0
+[2019-07-29 09:10:05,338] [INFO] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 304 0
+[2019-07-29 09:10:05,355] [INFO] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,355] [INFO] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,364] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,365] [INFO] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 304 0
+[2019-07-29 09:10:05,364] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,379] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 304 0
+[2019-07-29 09:10:05,365] [INFO] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 304 0
+[2019-07-29 09:10:05,391] [INFO] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,379] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 304 0
+[2019-07-29 09:10:05,391] [INFO] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,410] [INFO] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,421] [INFO] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-07-29 09:10:05,410] [INFO] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,421] [INFO] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-07-29 09:10:05,429] [INFO] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,429] [INFO] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,520] [INFO] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 304 0
+[2019-07-29 09:10:05,520] [INFO] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 304 0
+[2019-07-29 09:10:05,566] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 09:10:05,566] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 09:10:05,595] [INFO] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,599] [INFO] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,601] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 304 0
+[2019-07-29 09:10:05,595] [INFO] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,599] [INFO] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,601] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 304 0
+[2019-07-29 09:10:05,606] [INFO] basehttp : "GET /static/img/article/default.jpg HTTP/1.1" 304 0
+[2019-07-29 09:10:05,607] [INFO] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,606] [INFO] basehttp : "GET /static/img/article/default.jpg HTTP/1.1" 304 0
+[2019-07-29 09:10:05,607] [INFO] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 304 0
+[2019-07-29 09:10:05,635] [INFO] basehttp : "GET /static/img/bg.jpg HTTP/1.1" 304 0
+[2019-07-29 09:10:05,635] [INFO] basehttp : "GET /static/img/bg.jpg HTTP/1.1" 304 0
+[2019-07-29 09:10:05,692] [INFO] basehttp : "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2019-07-29 09:10:05,692] [INFO] basehttp : "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2019-07-29 09:10:50,088] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 09:10:50,088] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 09:10:58,258] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-29 09:10:58,258] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-29 09:10:58,361] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-29 09:10:58,361] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-29 09:10:58,384] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-29 09:10:58,384] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-29 09:10:59,631] [INFO] basehttp : "GET /user/changepassword HTTP/1.1" 200 17108
+[2019-07-29 09:10:59,631] [INFO] basehttp : "GET /user/changepassword HTTP/1.1" 200 17108
+[2019-07-29 09:11:00,538] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-29 09:11:00,538] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-29 09:11:00,596] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-29 09:11:00,596] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-29 09:11:00,621] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-29 09:11:00,621] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-29 09:11:02,245] [INFO] basehttp : "GET /register/ HTTP/1.1" 200 16306
+[2019-07-29 09:11:02,245] [INFO] basehttp : "GET /register/ HTTP/1.1" 200 16306
+[2019-07-29 09:11:10,404] [INFO] basehttp : "GET /all/ HTTP/1.1" 200 25303
+[2019-07-29 09:11:10,404] [INFO] basehttp : "GET /all/ HTTP/1.1" 200 25303
+[2019-07-29 09:11:10,512] [INFO] basehttp : "GET /static/img/loading.gif HTTP/1.1" 304 0
+[2019-07-29 09:11:10,512] [INFO] basehttp : "GET /static/img/loading.gif HTTP/1.1" 304 0
+[2019-07-29 09:11:14,044] [INFO] basehttp : "POST /all/ HTTP/1.1" 200 1814
+[2019-07-29 09:11:14,044] [INFO] basehttp : "POST /all/ HTTP/1.1" 200 1814
+[2019-07-29 09:11:16,184] [INFO] basehttp : "POST /all/ HTTP/1.1" 200 1814
+[2019-07-29 09:11:16,184] [INFO] basehttp : "POST /all/ HTTP/1.1" 200 1814
+[2019-07-29 09:11:17,757] [INFO] basehttp : "POST /all/ HTTP/1.1" 200 1814
+[2019-07-29 09:11:17,757] [INFO] basehttp : "POST /all/ HTTP/1.1" 200 1814
+[2019-07-29 09:11:26,011] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 09:11:26,011] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:08:53,076] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-29 13:08:53,076] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-29 13:08:56,412] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:08:56,412] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:08:56,473] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:08:56,473] [INFO] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 304 0
+[2019-07-29 13:08:56,473] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:08:56,473] [INFO] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 304 0
+[2019-07-29 13:08:56,574] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 304 0
+[2019-07-29 13:08:56,574] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 304 0
+[2019-07-29 13:08:59,334] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14795
+[2019-07-29 13:08:59,334] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14795
+[2019-07-29 13:09:32,692] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:09:32,692] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:09:32,811] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-29 13:09:32,811] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-29 13:10:04,320] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-29 13:10:04,320] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-29 13:10:04,483] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-29 13:10:04,483] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19226
+[2019-07-29 13:10:04,525] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-29 13:10:04,525] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-29 13:10:06,040] [INFO] basehttp : "GET /user/changepassword HTTP/1.1" 200 17108
+[2019-07-29 13:10:06,040] [INFO] basehttp : "GET /user/changepassword HTTP/1.1" 200 17108
+[2019-07-29 13:10:07,194] [INFO] basehttp : "GET /user/notification HTTP/1.1" 200 15985
+[2019-07-29 13:10:07,194] [INFO] basehttp : "GET /user/notification HTTP/1.1" 200 15985
+[2019-07-29 13:10:08,355] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:10:08,355] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:10:09,513] [INFO] basehttp : "GET /register/ HTTP/1.1" 200 16306
+[2019-07-29 13:10:09,513] [INFO] basehttp : "GET /register/ HTTP/1.1" 200 16306
+[2019-07-29 13:10:13,984] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:10:13,984] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:10:31,787] [INFO] basehttp : "GET /article/PythonAnyWhere.html HTTP/1.1" 200 36492
+[2019-07-29 13:10:31,787] [INFO] basehttp : "GET /article/PythonAnyWhere.html HTTP/1.1" 200 36492
+[2019-07-29 13:10:31,896] [INFO] basehttp : "GET /static/syntaxhighlighter/styles/shCoreDefault.css HTTP/1.1" 304 0
+[2019-07-29 13:10:31,896] [INFO] basehttp : "GET /static/syntaxhighlighter/styles/shCoreDefault.css HTTP/1.1" 304 0
+[2019-07-29 13:10:31,941] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushCpp.js HTTP/1.1" 304 0
+[2019-07-29 13:10:31,941] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushCpp.js HTTP/1.1" 304 0
+[2019-07-29 13:10:31,975] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushJava.js HTTP/1.1" 304 0
+[2019-07-29 13:10:31,976] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushXml.js HTTP/1.1" 304 0
+[2019-07-29 13:10:31,975] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushJava.js HTTP/1.1" 304 0
+[2019-07-29 13:10:31,977] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shCore.js HTTP/1.1" 304 0
+[2019-07-29 13:10:31,978] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushPython.js HTTP/1.1" 304 0
+[2019-07-29 13:10:31,976] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushXml.js HTTP/1.1" 304 0
+[2019-07-29 13:10:31,977] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shCore.js HTTP/1.1" 304 0
+[2019-07-29 13:10:31,978] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushPython.js HTTP/1.1" 304 0
+[2019-07-29 13:10:32,075] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushJScript.js HTTP/1.1" 304 0
+[2019-07-29 13:10:32,076] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushPowerShell.js HTTP/1.1" 304 0
+[2019-07-29 13:10:32,075] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushJScript.js HTTP/1.1" 304 0
+[2019-07-29 13:10:32,076] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushPowerShell.js HTTP/1.1" 304 0
+[2019-07-29 13:10:35,199] [INFO] basehttp : "GET /article/PythonAnyWhere.html HTTP/1.1" 200 36492
+[2019-07-29 13:10:35,199] [INFO] basehttp : "GET /article/PythonAnyWhere.html HTTP/1.1" 200 36492
+[2019-07-29 13:27:02,304] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:27:02,304] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:27:02,406] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-29 13:27:02,406] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-29 13:27:02,434] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:27:02,434] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:30:31,000] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-29 13:30:31,000] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-29 13:30:32,840] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:30:32,840] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:30:32,935] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:30:32,935] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:30:38,623] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:30:38,623] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:30:41,794] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:30:41,794] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:30:41,903] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:30:41,903] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:31:27,587] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:31:27,587] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:31:33,345] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:31:33,345] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:31:33,379] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 200 19932
+[2019-07-29 13:31:33,379] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 200 19932
+[2019-07-29 13:31:33,463] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-29 13:31:33,463] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-29 13:31:33,488] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:31:33,488] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:31:41,910] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:31:41,910] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:31:42,012] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:31:42,012] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:31:45,795] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:31:45,795] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:32:20,644] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-29 13:32:20,644] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-07-29 13:32:24,527] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:32:24,527] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:32:24,563] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:32:24,563] [INFO] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 304 0
+[2019-07-29 13:32:24,563] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:32:24,563] [INFO] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 304 0
+[2019-07-29 13:32:24,582] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 304 0
+[2019-07-29 13:32:24,582] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 304 0
+[2019-07-29 13:32:24,897] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-29 13:32:24,897] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-07-29 13:32:30,564] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:32:30,564] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:32:37,331] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:32:37,331] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:32:37,359] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:32:37,359] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:32:37,420] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-29 13:32:37,420] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-07-29 13:32:37,443] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:32:37,443] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:32:38,239] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:32:38,239] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:32:39,469] [INFO] basehttp : "GET /user/changepassword HTTP/1.1" 200 17108
+[2019-07-29 13:32:39,469] [INFO] basehttp : "GET /user/changepassword HTTP/1.1" 200 17108
+[2019-07-29 13:32:40,487] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:32:40,487] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:32:40,575] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:32:40,575] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:32:41,090] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:32:41,090] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:32:42,516] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:32:42,516] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:32:45,752] [INFO] basehttp : "GET /article/PythonAnyWhere.html HTTP/1.1" 200 36492
+[2019-07-29 13:32:45,752] [INFO] basehttp : "GET /article/PythonAnyWhere.html HTTP/1.1" 200 36492
+[2019-07-29 13:33:00,220] [INFO] basehttp : "POST /usercontrol/logout HTTP/1.1" 200 2
+[2019-07-29 13:33:00,220] [INFO] basehttp : "POST /usercontrol/logout HTTP/1.1" 200 2
+[2019-07-29 13:33:00,284] [INFO] basehttp : "GET / HTTP/1.1" 200 22386
+[2019-07-29 13:33:00,284] [INFO] basehttp : "GET / HTTP/1.1" 200 22386
+[2019-07-29 13:33:00,337] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:33:00,337] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:33:06,714] [INFO] basehttp : "POST /usercontrol/login HTTP/1.1" 200 14
+[2019-07-29 13:33:06,714] [INFO] basehttp : "POST /usercontrol/login HTTP/1.1" 200 14
+[2019-07-29 13:33:07,120] [INFO] basehttp : "GET / HTTP/1.1" 200 23666
+[2019-07-29 13:33:07,120] [INFO] basehttp : "GET / HTTP/1.1" 200 23666
+[2019-07-29 13:33:14,539] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14784
+[2019-07-29 13:33:14,539] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14784
+[2019-07-29 13:33:17,122] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19255
+[2019-07-29 13:33:17,122] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19255
+[2019-07-29 13:33:17,215] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19255
+[2019-07-29 13:33:17,215] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19255
+[2019-07-29 13:33:18,635] [INFO] basehttp : "GET /user/changepassword HTTP/1.1" 200 17110
+[2019-07-29 13:33:18,635] [INFO] basehttp : "GET /user/changepassword HTTP/1.1" 200 17110
+[2019-07-29 13:33:19,572] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19255
+[2019-07-29 13:33:19,572] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19255
+[2019-07-29 13:33:19,651] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19255
+[2019-07-29 13:33:19,651] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19255
+[2019-07-29 13:33:20,614] [INFO] basehttp : "GET /user/notification HTTP/1.1" 200 15159
+[2019-07-29 13:33:20,614] [INFO] basehttp : "GET /user/notification HTTP/1.1" 200 15159
+[2019-07-29 13:33:21,900] [INFO] basehttp : "GET /register/ HTTP/1.1" 200 16307
+[2019-07-29 13:33:21,900] [INFO] basehttp : "GET /register/ HTTP/1.1" 200 16307
+[2019-07-29 13:35:04,061] [INFO] basehttp : "POST /usercontrol/logout HTTP/1.1" 200 2
+[2019-07-29 13:35:04,061] [INFO] basehttp : "POST /usercontrol/logout HTTP/1.1" 200 2
+[2019-07-29 13:35:04,132] [INFO] basehttp : "GET / HTTP/1.1" 200 22386
+[2019-07-29 13:35:04,132] [INFO] basehttp : "GET / HTTP/1.1" 200 22386
+[2019-07-29 13:35:04,178] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:35:04,178] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:35:10,112] [INFO] basehttp : "POST /usercontrol/login HTTP/1.1" 200 14
+[2019-07-29 13:35:10,112] [INFO] basehttp : "POST /usercontrol/login HTTP/1.1" 200 14
+[2019-07-29 13:35:10,182] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:35:10,182] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:35:13,530] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:35:13,530] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:35:13,609] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:35:13,609] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:35:39,359] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-29 13:35:39,359] [INFO] basehttp : "POST /usercontrol/changetx HTTP/1.1" 200 45
+[2019-07-29 13:35:41,187] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:35:41,187] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:35:41,225] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 200 20284
+[2019-07-29 13:35:41,225] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 200 20284
+[2019-07-29 13:35:41,306] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:35:41,306] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19253
+[2019-07-29 13:35:43,536] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:35:43,536] [INFO] basehttp : "GET / HTTP/1.1" 200 23665
+[2019-07-29 13:35:43,556] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:35:43,556] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:35:51,481] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:35:51,481] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:35:51,503] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:35:51,503] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:35:57,641] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:35:57,641] [INFO] basehttp : "GET /user/getinfo HTTP/1.1" 200 14781
+[2019-07-29 13:35:57,659] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:35:57,659] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:37:07,718] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10259
+[2019-07-29 13:37:07,718] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10259
+[2019-07-29 13:37:07,783] [INFO] basehttp : "GET /static/tinymce/tinymce.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:07,783] [INFO] basehttp : "GET /static/tinymce/tinymce.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:07,831] [INFO] basehttp : "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2019-07-29 13:37:07,831] [INFO] basehttp : "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2019-07-29 13:37:07,831] [INFO] basehttp : "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2019-07-29 13:37:07,831] [INFO] basehttp : "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2019-07-29 13:37:07,933] [INFO] basehttp : "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2019-07-29 13:37:07,933] [INFO] basehttp : "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2019-07-29 13:37:08,256] [INFO] basehttp : "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:08,257] [INFO] basehttp : "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:08,256] [INFO] basehttp : "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:08,258] [INFO] basehttp : "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:08,257] [INFO] basehttp : "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:08,258] [INFO] basehttp : "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:08,567] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2019-07-29 13:37:08,569] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2019-07-29 13:37:08,567] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2019-07-29 13:37:08,569] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2019-07-29 13:37:08,572] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2019-07-29 13:37:08,572] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2019-07-29 13:37:08,662] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 5151
+[2019-07-29 13:37:08,662] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 5151
+[2019-07-29 13:37:11,010] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 9205
+[2019-07-29 13:37:11,010] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 9205
+[2019-07-29 13:37:11,033] [INFO] basehttp : "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2019-07-29 13:37:11,033] [INFO] basehttp : "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2019-07-29 13:37:11,067] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:37:11,067] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:37:11,070] [INFO] basehttp : "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,071] [INFO] basehttp : "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,070] [INFO] basehttp : "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,071] [INFO] basehttp : "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,081] [INFO] basehttp : "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,081] [INFO] basehttp : "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,083] [INFO] basehttp : "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,084] [INFO] basehttp : "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,081] [INFO] basehttp : "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,085] [INFO] basehttp : "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,083] [INFO] basehttp : "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,084] [INFO] basehttp : "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,081] [INFO] basehttp : "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,085] [INFO] basehttp : "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,091] [INFO] basehttp : "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,091] [INFO] basehttp : "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2019-07-29 13:37:11,113] [INFO] basehttp : "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:11,113] [INFO] basehttp : "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:11,114] [INFO] basehttp : "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:11,114] [INFO] basehttp : "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:11,386] [INFO] basehttp : "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:11,387] [INFO] basehttp : "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:11,386] [INFO] basehttp : "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:11,387] [INFO] basehttp : "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:13,861] [INFO] basehttp : "GET /admin/Hblog/article/add/ HTTP/1.1" 200 12083
+[2019-07-29 13:37:13,861] [INFO] basehttp : "GET /admin/Hblog/article/add/ HTTP/1.1" 200 12083
+[2019-07-29 13:37:13,878] [INFO] basehttp : "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[2019-07-29 13:37:13,878] [INFO] basehttp : "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[2019-07-29 13:37:13,894] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:37:13,894] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:37:13,898] [INFO] basehttp : "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[2019-07-29 13:37:13,899] [INFO] basehttp : "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[2019-07-29 13:37:13,898] [INFO] basehttp : "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[2019-07-29 13:37:13,899] [INFO] basehttp : "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[2019-07-29 13:37:13,903] [INFO] basehttp : "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[2019-07-29 13:37:13,903] [INFO] basehttp : "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[2019-07-29 13:37:13,911] [INFO] basehttp : "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[2019-07-29 13:37:13,913] [INFO] basehttp : "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[2019-07-29 13:37:13,911] [INFO] basehttp : "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[2019-07-29 13:37:13,913] [INFO] basehttp : "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,154] [INFO] basehttp : "GET /static/tinymce/plugins/advlist/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,154] [INFO] basehttp : "GET /static/tinymce/plugins/autolink/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,155] [INFO] basehttp : "GET /static/tinymce/themes/modern/theme.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,155] [INFO] basehttp : "GET /static/tinymce/plugins/link/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,155] [INFO] basehttp : "GET /static/tinymce/plugins/image/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,156] [INFO] basehttp : "GET /static/tinymce/plugins/lists/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,154] [INFO] basehttp : "GET /static/tinymce/plugins/advlist/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,154] [INFO] basehttp : "GET /static/tinymce/plugins/autolink/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,155] [INFO] basehttp : "GET /static/tinymce/themes/modern/theme.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,155] [INFO] basehttp : "GET /static/tinymce/plugins/link/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,155] [INFO] basehttp : "GET /static/tinymce/plugins/image/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,156] [INFO] basehttp : "GET /static/tinymce/plugins/lists/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,201] [INFO] basehttp : "GET /static/tinymce/plugins/charmap/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,202] [INFO] basehttp : "GET /static/tinymce/plugins/preview/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,201] [INFO] basehttp : "GET /static/tinymce/plugins/charmap/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,203] [INFO] basehttp : "GET /static/tinymce/plugins/hr/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,202] [INFO] basehttp : "GET /static/tinymce/plugins/preview/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,204] [INFO] basehttp : "GET /static/tinymce/plugins/print/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,203] [INFO] basehttp : "GET /static/tinymce/plugins/hr/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,204] [INFO] basehttp : "GET /static/tinymce/plugins/print/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,212] [INFO] basehttp : "GET /static/tinymce/plugins/pagebreak/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,213] [INFO] basehttp : "GET /static/tinymce/plugins/anchor/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,212] [INFO] basehttp : "GET /static/tinymce/plugins/pagebreak/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,213] [INFO] basehttp : "GET /static/tinymce/plugins/anchor/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,216] [INFO] basehttp : "GET /static/tinymce/plugins/searchreplace/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,216] [INFO] basehttp : "GET /static/tinymce/plugins/searchreplace/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,226] [INFO] basehttp : "GET /static/tinymce/plugins/visualblocks/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,226] [INFO] basehttp : "GET /static/tinymce/plugins/fullscreen/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,226] [INFO] basehttp : "GET /static/tinymce/plugins/visualblocks/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,228] [INFO] basehttp : "GET /static/tinymce/plugins/visualchars/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,226] [INFO] basehttp : "GET /static/tinymce/plugins/fullscreen/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,228] [INFO] basehttp : "GET /static/tinymce/plugins/visualchars/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,230] [INFO] basehttp : "GET /static/tinymce/plugins/code/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,230] [INFO] basehttp : "GET /static/tinymce/plugins/code/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,231] [INFO] basehttp : "GET /static/tinymce/plugins/wordcount/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,231] [INFO] basehttp : "GET /static/tinymce/plugins/wordcount/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,243] [INFO] basehttp : "GET /static/tinymce/plugins/contextmenu/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,243] [INFO] basehttp : "GET /static/tinymce/plugins/insertdatetime/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,244] [INFO] basehttp : "GET /static/tinymce/plugins/media/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,244] [INFO] basehttp : "GET /static/tinymce/plugins/save/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,243] [INFO] basehttp : "GET /static/tinymce/plugins/contextmenu/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,245] [INFO] basehttp : "GET /static/tinymce/plugins/table/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,243] [INFO] basehttp : "GET /static/tinymce/plugins/insertdatetime/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,244] [INFO] basehttp : "GET /static/tinymce/plugins/media/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,244] [INFO] basehttp : "GET /static/tinymce/plugins/save/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,245] [INFO] basehttp : "GET /static/tinymce/plugins/table/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,249] [INFO] basehttp : "GET /static/tinymce/plugins/nonbreaking/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,249] [INFO] basehttp : "GET /static/tinymce/plugins/nonbreaking/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,312] [INFO] basehttp : "GET /static/tinymce/plugins/directionality/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,312] [INFO] basehttp : "GET /static/tinymce/plugins/directionality/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,385] [INFO] basehttp : "GET /static/tinymce/plugins/emoticons/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,386] [INFO] basehttp : "GET /static/tinymce/plugins/paste/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,385] [INFO] basehttp : "GET /static/tinymce/plugins/emoticons/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,386] [INFO] basehttp : "GET /static/tinymce/plugins/template/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,386] [INFO] basehttp : "GET /static/tinymce/plugins/paste/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,386] [INFO] basehttp : "GET /static/tinymce/plugins/template/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,401] [INFO] basehttp : "GET /static/tinymce/plugins/textcolor/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,401] [INFO] basehttp : "GET /static/tinymce/plugins/textcolor/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,401] [INFO] basehttp : "GET /static/tinymce/plugins/textpattern/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,402] [INFO] basehttp : "GET /static/tinymce/plugins/colorpicker/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,401] [INFO] basehttp : "GET /static/tinymce/plugins/textpattern/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,402] [INFO] basehttp : "GET /static/tinymce/plugins/colorpicker/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,416] [INFO] basehttp : "GET /static/tinymce/plugins/sh4tinymce/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,416] [INFO] basehttp : "GET /static/tinymce/plugins/sh4tinymce/plugin.min.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,662] [INFO] basehttp : "GET /static/tinymce/plugins/sh4tinymce/langs/en.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,662] [INFO] basehttp : "GET /static/tinymce/plugins/sh4tinymce/langs/en.js HTTP/1.1" 304 0
+[2019-07-29 13:37:14,676] [INFO] basehttp : "GET /static/tinymce/plugins/sh4tinymce/style/style.css HTTP/1.1" 304 0
+[2019-07-29 13:37:14,676] [INFO] basehttp : "GET /static/tinymce/plugins/sh4tinymce/style/style.css HTTP/1.1" 304 0
+[2019-07-29 13:37:14,692] [INFO] basehttp : "GET /static/tinymce/skins/lightgray/skin.min.css HTTP/1.1" 304 0
+[2019-07-29 13:37:14,692] [INFO] basehttp : "GET /static/tinymce/skins/lightgray/skin.min.css HTTP/1.1" 304 0
+[2019-07-29 13:37:14,737] [INFO] basehttp : "GET /static/tinymce/skins/lightgray/content.min.css HTTP/1.1" 304 0
+[2019-07-29 13:37:14,737] [INFO] basehttp : "GET /static/tinymce/skins/lightgray/content.min.css HTTP/1.1" 304 0
+[2019-07-29 13:37:14,871] [INFO] basehttp : "GET /static/tinymce/plugins/sh4tinymce/fonts/sh4tinymce.woff HTTP/1.1" 304 0
+[2019-07-29 13:37:14,871] [INFO] basehttp : "GET /static/tinymce/plugins/sh4tinymce/fonts/sh4tinymce.woff HTTP/1.1" 304 0
+[2019-07-29 13:37:14,914] [INFO] basehttp : "GET /static/tinymce/skins/lightgray/fonts/tinymce.woff HTTP/1.1" 304 0
+[2019-07-29 13:37:14,914] [INFO] basehttp : "GET /static/tinymce/skins/lightgray/fonts/tinymce.woff HTTP/1.1" 304 0
+[2019-07-29 13:37:14,982] [INFO] basehttp : "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:14,982] [INFO] basehttp : "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:14,982] [INFO] basehttp : "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[2019-07-29 13:37:14,982] [INFO] basehttp : "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[2019-07-29 13:38:40,115] [INFO] basehttp : "GET /admin/Hblog/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 6110
+[2019-07-29 13:38:40,115] [INFO] basehttp : "GET /admin/Hblog/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 6110
+[2019-07-29 13:38:40,155] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:38:40,155] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:38:59,410] [INFO] basehttp : "POST /admin/Hblog/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 369
+[2019-07-29 13:38:59,410] [INFO] basehttp : "POST /admin/Hblog/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 369
+[2019-07-29 13:38:59,427] [INFO] basehttp : "GET /static/admin/js/popup_response.js HTTP/1.1" 200 569
+[2019-07-29 13:38:59,427] [INFO] basehttp : "GET /static/admin/js/popup_response.js HTTP/1.1" 200 569
+[2019-07-29 13:39:58,607] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png HTTP/1.1" 301 0
+[2019-07-29 13:39:58,607] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png HTTP/1.1" 301 0
+[2019-07-29 13:39:58,607] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png HTTP/1.1" 301 0
+[2019-07-29 13:39:58,607] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png HTTP/1.1" 301 0
+[2019-07-29 13:39:58,625] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:39:58,625] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:39:58,626] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:39:58,626] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:39:58,644] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:39:58,644] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:39:58,644] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:39:58,644] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:39:58,744] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:39:58,744] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:39:58,751] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:39:58,751] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:22,620] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:22,620] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:22,639] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:22,639] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:22,681] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:22,681] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:25,592] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:25,592] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:25,605] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:25,605] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:25,636] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:25,636] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:31,993] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:31,993] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:31,997] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:31,997] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:32,019] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:32,019] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:32,019] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:32,019] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:32,072] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:32,072] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:32,079] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:32,079] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:41,710] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:41,710] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:41,718] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:41,718] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:41,751] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:41,751] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:41,767] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:41,767] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:41,819] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:41,819] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:41,874] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:41,874] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:41,885] [INFO] basehttp : "POST /admin/Hblog/article/add/ HTTP/1.1" 200 45502
+[2019-07-29 13:40:41,885] [INFO] basehttp : "POST /admin/Hblog/article/add/ HTTP/1.1" 200 45502
+[2019-07-29 13:40:41,928] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:40:41,928] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:40:41,933] [ERROR] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 500 59
+[2019-07-29 13:40:41,933] [ERROR] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 500 59
+[2019-07-29 13:40:49,082] [INFO] basehttp : "GET /admin/Hblog/article/add/ HTTP/1.1" 200 12120
+[2019-07-29 13:40:49,082] [INFO] basehttp : "GET /admin/Hblog/article/add/ HTTP/1.1" 200 12120
+[2019-07-29 13:40:49,109] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:40:49,109] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:40:49,640] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:49,644] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:49,640] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:49,644] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:40:49,714] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:49,714] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:49,717] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:49,717] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:40:49,763] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:49,763] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:49,815] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:40:49,815] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:42:17,258] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:42:17,260] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:42:17,258] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:42:17,260] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:42:17,290] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:42:17,290] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:42:17,290] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:42:17,290] [INFO] basehttp : "GET /admin/Hblog/article/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:42:17,357] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:42:17,357] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:42:17,364] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:42:17,364] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10427
+[2019-07-29 13:42:17,744] [INFO] basehttp : "POST /admin/Hblog/article/add/ HTTP/1.1" 302 0
+[2019-07-29 13:42:17,744] [INFO] basehttp : "POST /admin/Hblog/article/add/ HTTP/1.1" 302 0
+[2019-07-29 13:42:17,840] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 10156
+[2019-07-29 13:42:17,840] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 10156
+[2019-07-29 13:42:17,883] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:42:17,884] [INFO] basehttp : "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+[2019-07-29 13:42:17,883] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:42:17,884] [INFO] basehttp : "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+[2019-07-29 13:42:32,745] [ERROR] log : Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Blog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Blog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Blog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\Blog\venv\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\Blog\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "D:\Blog\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\loader_tags.py", line 188, in render
+    return template.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 173, in render
+    return self._render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Blog\venv\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Blog\venv\lib\site-packages\django\urls\resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article-detail-view' with arguments '('ITjuzi redis',)' not found. 1 pattern(s) tried: ['article/(?P<slug>\\w+).html$']
+[2019-07-29 13:42:32,745] [ERROR] log : Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Blog\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Blog\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Blog\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "D:\Blog\venv\lib\site-packages\django\template\response.py", line 106, in render
+    self.content = self.rendered_content
+  File "D:\Blog\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "D:\Blog\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\loader_tags.py", line 188, in render
+    return template.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 173, in render
+    return self._render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "D:\Blog\venv\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Blog\venv\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Blog\venv\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Blog\venv\lib\site-packages\django\urls\resolvers.py", line 668, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article-detail-view' with arguments '('ITjuzi redis',)' not found. 1 pattern(s) tried: ['article/(?P<slug>\\w+).html$']
+[2019-07-29 13:42:32,761] [ERROR] basehttp : "GET / HTTP/1.1" 500 221533
+[2019-07-29 13:42:32,761] [ERROR] basehttp : "GET / HTTP/1.1" 500 221533
+[2019-07-29 13:43:02,965] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10250
+[2019-07-29 13:43:02,965] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10250
+[2019-07-29 13:43:05,691] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 9973
+[2019-07-29 13:43:05,691] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 9973
+[2019-07-29 13:43:05,738] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:43:05,738] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:43:08,033] [INFO] basehttp : "GET /admin/Hblog/article/2/change/ HTTP/1.1" 200 45693
+[2019-07-29 13:43:08,033] [INFO] basehttp : "GET /admin/Hblog/article/2/change/ HTTP/1.1" 200 45693
+[2019-07-29 13:43:08,073] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:43:08,073] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:43:08,118] [INFO] basehttp : "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 304 0
+[2019-07-29 13:43:08,118] [INFO] basehttp : "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 304 0
+[2019-07-29 13:43:08,467] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png HTTP/1.1" 301 0
+[2019-07-29 13:43:08,468] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png HTTP/1.1" 301 0
+[2019-07-29 13:43:08,467] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png HTTP/1.1" 301 0
+[2019-07-29 13:43:08,468] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png HTTP/1.1" 301 0
+[2019-07-29 13:43:08,513] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:43:08,513] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:43:08,514] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:43:08,514] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:43:08,578] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:43:08,578] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:43:08,580] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:43:08,580] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:43:08,668] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10420
+[2019-07-29 13:43:08,668] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10420
+[2019-07-29 13:43:08,700] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10420
+[2019-07-29 13:43:08,700] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10420
+[2019-07-29 13:43:44,044] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:43:44,044] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:43:44,049] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:43:44,049] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:43:44,078] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:43:44,080] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:43:44,078] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:43:44,080] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:43:44,113] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10420
+[2019-07-29 13:43:44,113] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10420
+[2019-07-29 13:43:44,156] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10420
+[2019-07-29 13:43:44,156] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10420
+[2019-07-29 13:43:44,566] [INFO] basehttp : "POST /admin/Hblog/article/2/change/ HTTP/1.1" 302 0
+[2019-07-29 13:43:44,566] [INFO] basehttp : "POST /admin/Hblog/article/2/change/ HTTP/1.1" 302 0
+[2019-07-29 13:43:44,648] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 10156
+[2019-07-29 13:43:44,648] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 10156
+[2019-07-29 13:43:44,694] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:43:44,694] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:43:49,677] [INFO] basehttp : "GET / HTTP/1.1" 200 25985
+[2019-07-29 13:43:49,677] [INFO] basehttp : "GET / HTTP/1.1" 200 25985
+[2019-07-29 13:43:49,724] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:43:49,724] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:44:00,421] [INFO] basehttp : "GET /tag/%E7%88%AC%E8%99%AB HTTP/1.1" 301 0
+[2019-07-29 13:44:00,421] [INFO] basehttp : "GET /tag/%E7%88%AC%E8%99%AB HTTP/1.1" 301 0
+[2019-07-29 13:44:00,499] [INFO] basehttp : "GET /tag/%E7%88%AC%E8%99%AB/ HTTP/1.1" 200 18725
+[2019-07-29 13:44:00,499] [INFO] basehttp : "GET /tag/%E7%88%AC%E8%99%AB/ HTTP/1.1" 200 18725
+[2019-07-29 13:44:02,172] [INFO] basehttp : "GET /tag/%E7%88%AC%E8%99%AB/ HTTP/1.1" 200 18725
+[2019-07-29 13:44:02,172] [INFO] basehttp : "GET /tag/%E7%88%AC%E8%99%AB/ HTTP/1.1" 200 18725
+[2019-07-29 13:44:22,351] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10268
+[2019-07-29 13:44:22,351] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10268
+[2019-07-29 13:44:27,501] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 9973
+[2019-07-29 13:44:27,501] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 9973
+[2019-07-29 13:44:27,541] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:44:27,541] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:44:29,198] [INFO] basehttp : "GET /admin/Hblog/article/2/change/ HTTP/1.1" 200 45693
+[2019-07-29 13:44:29,198] [INFO] basehttp : "GET /admin/Hblog/article/2/change/ HTTP/1.1" 200 45693
+[2019-07-29 13:44:29,237] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:44:29,237] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:44:29,572] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:44:29,573] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:44:29,572] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:44:29,573] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:44:29,605] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:44:29,605] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:44:29,605] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:44:29,605] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:44:29,722] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10438
+[2019-07-29 13:44:29,722] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10438
+[2019-07-29 13:44:29,722] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10438
+[2019-07-29 13:44:29,722] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10438
+[2019-07-29 13:44:46,178] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:44:46,178] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:44:46,180] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:44:46,180] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:44:46,208] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:44:46,208] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:44:46,208] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:44:46,208] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:44:46,284] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10438
+[2019-07-29 13:44:46,284] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10438
+[2019-07-29 13:44:46,332] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10438
+[2019-07-29 13:44:46,332] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10438
+[2019-07-29 13:44:46,491] [INFO] basehttp : "POST /admin/Hblog/article/2/change/ HTTP/1.1" 302 0
+[2019-07-29 13:44:46,491] [INFO] basehttp : "POST /admin/Hblog/article/2/change/ HTTP/1.1" 302 0
+[2019-07-29 13:44:46,556] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 10156
+[2019-07-29 13:44:46,556] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 10156
+[2019-07-29 13:44:46,592] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:44:46,592] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:45:02,359] [INFO] basehttp : "GET /admin/Hblog/article/2/change/ HTTP/1.1" 200 45693
+[2019-07-29 13:45:02,359] [INFO] basehttp : "GET /admin/Hblog/article/2/change/ HTTP/1.1" 200 45693
+[2019-07-29 13:45:02,400] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:45:02,400] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:45:02,775] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:45:02,775] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/ HTTP/1.1" 302 0
+[2019-07-29 13:45:02,777] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:45:02,777] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/ HTTP/1.1" 302 0
+[2019-07-29 13:45:02,817] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:45:02,820] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:45:02,817] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_0.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:45:02,820] [INFO] basehttp : "GET /admin/Hblog/article/2/images/itjuzi_1.png/change/ HTTP/1.1" 302 0
+[2019-07-29 13:45:02,909] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10500
+[2019-07-29 13:45:02,909] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10500
+[2019-07-29 13:45:02,919] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10500
+[2019-07-29 13:45:02,919] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10500
+[2019-07-29 13:45:06,495] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 9973
+[2019-07-29 13:45:06,495] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 9973
+[2019-07-29 13:45:09,117] [INFO] basehttp : "GET /admin/Hblog/article/1/change/ HTTP/1.1" 200 29554
+[2019-07-29 13:45:09,117] [INFO] basehttp : "GET /admin/Hblog/article/1/change/ HTTP/1.1" 200 29554
+[2019-07-29 13:45:09,156] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:45:09,156] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:45:09,597] [INFO] basehttp : "GET /static/tinymce/skins/lightgray/img/anchor.gif HTTP/1.1" 304 0
+[2019-07-29 13:45:09,597] [INFO] basehttp : "GET /static/tinymce/skins/lightgray/img/anchor.gif HTTP/1.1" 304 0
+[2019-07-29 13:45:15,772] [INFO] basehttp : "POST /admin/Hblog/article/1/change/ HTTP/1.1" 302 0
+[2019-07-29 13:45:15,772] [INFO] basehttp : "POST /admin/Hblog/article/1/change/ HTTP/1.1" 302 0
+[2019-07-29 13:45:15,845] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 10165
+[2019-07-29 13:45:15,845] [INFO] basehttp : "GET /admin/Hblog/article/ HTTP/1.1" 200 10165
+[2019-07-29 13:45:15,888] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:45:15,888] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-07-29 13:45:23,786] [INFO] basehttp : "GET / HTTP/1.1" 200 25997
+[2019-07-29 13:45:23,786] [INFO] basehttp : "GET / HTTP/1.1" 200 25997
+[2019-07-29 13:45:23,854] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:45:23,854] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:45:29,802] [INFO] basehttp : "GET /tag/%E7%88%AC%E8%99%AB/ HTTP/1.1" 200 20868
+[2019-07-29 13:45:29,802] [INFO] basehttp : "GET /tag/%E7%88%AC%E8%99%AB/ HTTP/1.1" 200 20868
+[2019-07-29 13:45:33,235] [INFO] basehttp : "GET /tag/Django HTTP/1.1" 301 0
+[2019-07-29 13:45:33,235] [INFO] basehttp : "GET /tag/Django HTTP/1.1" 301 0
+[2019-07-29 13:45:33,308] [INFO] basehttp : "GET /tag/Django/ HTTP/1.1" 200 20829
+[2019-07-29 13:45:33,308] [INFO] basehttp : "GET /tag/Django/ HTTP/1.1" 200 20829
+[2019-07-29 13:45:41,965] [INFO] basehttp : "GET /article/scrapy_redis.html HTTP/1.1" 200 47323
+[2019-07-29 13:45:41,965] [INFO] basehttp : "GET /article/scrapy_redis.html HTTP/1.1" 200 47323
+[2019-07-29 13:45:42,006] [WARNING] basehttp : "GET /images/itjuzi_0.png HTTP/1.1" 404 5175
+[2019-07-29 13:45:42,006] [WARNING] basehttp : "GET /images/itjuzi_0.png HTTP/1.1" 404 5175
+[2019-07-29 13:45:42,016] [WARNING] basehttp : "GET /images/itjuzi_1.png HTTP/1.1" 404 5175
+[2019-07-29 13:45:42,016] [WARNING] basehttp : "GET /images/itjuzi_1.png HTTP/1.1" 404 5175
+[2019-07-29 13:46:23,523] [INFO] basehttp : "GET /tag/%E7%88%AC%E8%99%AB/ HTTP/1.1" 200 20868
+[2019-07-29 13:46:23,523] [INFO] basehttp : "GET /tag/%E7%88%AC%E8%99%AB/ HTTP/1.1" 200 20868
+[2019-07-29 13:46:23,546] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-07-29 13:46:23,546] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
