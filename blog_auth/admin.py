@@ -17,7 +17,7 @@ class VmaigUserAdmin(UserAdmin):
         }),
     )
     fieldsets = (
-        (u'基本信息', {'fields': ('username', 'password', 'email')}),
+        (u'基本信息', dict(fields=('username', 'password', 'email', 'img', 'intro'))),
         (u'权限', {'fields': ('is_active', 'is_staff', 'is_superuser')}),
         (u'时间信息', {'fields': ('last_login', 'date_joined')}),
     )
