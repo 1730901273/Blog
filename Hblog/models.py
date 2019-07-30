@@ -2,24 +2,6 @@
 from django.db import models
 from django.conf import settings
 
-
-# class string_with_title(str):
-#     """ 用来修改admin中显示的app名称,因为admin app 名称是用 str.title()显示的,
-#     所以修改str类的title方法就可以实现.
-#     """
-#
-#     def __new__(cls, value, title):
-#         instance = str.__new__(cls, value)
-#         instance._title = title
-#         return instance
-#
-#     def title(self):
-#         return self._title
-#
-#     __copy__ = lambda self: self
-#     __deepcopy__ = lambda self, memodict: self
-
-
 # Create your models here.
 STATUS = {
     0: u'正常',
@@ -48,7 +30,6 @@ class Nav(models.Model):
     class Meta:
         verbose_name_plural = verbose_name = u"导航条"
         ordering = ['-create_time']
-        # app_label = string_with_title('blog', u"博客管理")
 
     def __unicode__(self):
         return self.name
@@ -69,7 +50,6 @@ class Category(models.Model):
     class Meta:
         verbose_name_plural = verbose_name = u'分类'
         ordering = ['rank', '-create_time']
-        # app_label = string_with_title('blog', u"博客管理")
 
     def get_absolute_url(self):
         from django.urls import reverse
@@ -116,7 +96,6 @@ class article(models.Model):
     class Meta:
         verbose_name_plural = verbose_name = u'文章'
         ordering = ['rank', '-is_top', '-pub_time', '-create_time']
-        # app_label = string_with_title('blog', u"博客管理")
 
     def get_absolute_url(self):
         from django.urls import reverse
@@ -140,7 +119,6 @@ class Column(models.Model):
     class Meta:
         verbose_name_plural = verbose_name = u'专栏'
         ordering = ['-create_time']
-        # app_label = string_with_title('blog', u"博客管理")
 
     def get_absolute_url(self):
         from django.urls import reverse
@@ -163,7 +141,6 @@ class Carousel(models.Model):
     class Meta:
         verbose_name_plural = verbose_name = u'轮播'
         ordering = ['-create_time']
-        # app_label = string_with_title('blog', u"博客管理")
 
 
 class News(models.Model):
@@ -178,7 +155,6 @@ class News(models.Model):
     class Meta:
         verbose_name_plural = verbose_name = u'资讯'
         ordering = ['-title']
-        # app_label = string_with_title('blog', u"博客管理")
 
     def get_absolute_url(self):
         from django.urls import reverse
