@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '8t62)ftc4(%7jn81urk5)+j3z5btdqwehn*m!a%&nvfhr(k+95'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -54,7 +54,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'Blog.urls'
-
+# templates set model
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -79,16 +79,17 @@ WSGI_APPLICATION = 'Blog.wsgi.application'
 
 DATABASES = {
     # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    #     'ENGINE': None,
+    #     # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'myBlog',
         'USER': 'root',
         'PASSWORD': 'root123456',
-        'HOST': '127.0.0.1',
-        # 'PORT': '',
+        'HOST': '10.12.4.242',
+        # 'HOST':'127.0.0.1',
+        'PORT': '3306',
         # 避免映射数据库时出现警告
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
@@ -96,7 +97,8 @@ DATABASES = {
         },
     }
 }
-
+# from mongoengine import connect
+# connect("py02db")
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
 
@@ -135,7 +137,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
+    os.path.join(BASE_DIR, "static")
 ]
 # 设置user model
 AUTH_USER_MODEL = 'blog_auth.VmaigUser'

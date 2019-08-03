@@ -10216,3 +10216,733 @@ django.urls.exceptions.NoReverseMatch: Reverse for 'article-detail-view' with ar
 [2019-07-30 17:37:36,275] [INFO] basehttp : "GET /article/PythonAnyWhere.html HTTP/1.1" 200 36738
 [2019-07-30 17:37:36,776] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
 [2019-07-30 17:37:36,776] [INFO] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 200 9662
+[2019-08-01 15:58:03,681] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 15:58:03,681] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 16:13:17,814] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 16:13:17,814] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 16:14:47,802] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 16:14:47,802] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 16:45:39,411] [INFO] autoreload : /home/poang/PycharmProjects/python1/Blog/Blog/settings.py changed, reloading.
+[2019-08-01 16:45:39,411] [INFO] autoreload : /home/poang/PycharmProjects/python1/Blog/Blog/settings.py changed, reloading.
+[2019-08-01 16:45:39,964] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 16:45:39,964] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 16:45:43,330] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 16:45:43,330] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 16:45:57,165] [INFO] autoreload : /home/poang/PycharmProjects/python1/Blog/Blog/settings.py changed, reloading.
+[2019-08-01 16:45:57,165] [INFO] autoreload : /home/poang/PycharmProjects/python1/Blog/Blog/settings.py changed, reloading.
+[2019-08-01 16:45:57,642] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 16:45:57,642] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 16:52:02,616] [INFO] autoreload : /home/poang/PycharmProjects/python1/Blog/Blog/settings.py changed, reloading.
+[2019-08-01 16:52:02,616] [INFO] autoreload : /home/poang/PycharmProjects/python1/Blog/Blog/settings.py changed, reloading.
+[2019-08-01 16:52:03,113] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 16:52:03,113] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 16:56:29,433] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 16:56:29,433] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 18:24:42,683] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 18:24:42,683] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 18:37:08,590] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 18:37:08,590] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 18:38:41,135] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 18:38:41,135] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 18:40:16,751] [INFO] autoreload : /home/poang/PycharmProjects/python1/Blog/Blog/settings.py changed, reloading.
+[2019-08-01 18:40:16,751] [INFO] autoreload : /home/poang/PycharmProjects/python1/Blog/Blog/settings.py changed, reloading.
+[2019-08-01 18:40:17,361] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 18:40:17,361] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 18:41:24,061] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 18:41:24,061] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 21:03:14,786] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 21:03:14,786] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 21:04:53,758] [INFO] autoreload : /home/poang/PycharmProjects/python1/Blog/Blog/settings.py changed, reloading.
+[2019-08-01 21:04:53,758] [INFO] autoreload : /home/poang/PycharmProjects/python1/Blog/Blog/settings.py changed, reloading.
+[2019-08-01 21:04:54,399] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 21:04:54,399] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 21:27:22,207] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 21:27:22,207] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 21:27:32,978] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-01 21:27:32,978] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-02 10:56:17,407] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-02 10:56:17,407] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-02 11:51:17,428] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-02 11:51:17,428] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-02 11:51:26,376] [ERROR] log : Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 157, in get
+    context = self.get_context_data()
+  File "/home/poang/PycharmProjects/python1/Blog/Hblog/views.py", line 73, in get_context_data
+    return super(IndexView, self).get_context_data(**kwargs)
+  File "/home/poang/PycharmProjects/python1/Blog/Hblog/views.py", line 36, in get_context_data
+    context = super(BaseMixin, self).get_context_data(**kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 119, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(queryset, page_size)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 69, in paginate_queryset
+    page = paginator.page(page_number)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 70, in page
+    number = self.validate_number(number)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 48, in validate_number
+    if number > self.num_pages:
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 97, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 91, in count
+    return c()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/query.py", line 392, in count
+    return self.query.get_count(using=self.db)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 504, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 489, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1087, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 488, in as_sql
+    from_, f_params = self.get_from_clause()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 760, in get_from_clause
+    clause_sql, clause_params = self.compile(from_clause)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 405, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/datastructures.py", line 159, in as_sql
+    base_sql = compiler.quote_name_unless_alias(self.table_name)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 396, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+[2019-08-02 11:51:26,376] [ERROR] log : Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 157, in get
+    context = self.get_context_data()
+  File "/home/poang/PycharmProjects/python1/Blog/Hblog/views.py", line 73, in get_context_data
+    return super(IndexView, self).get_context_data(**kwargs)
+  File "/home/poang/PycharmProjects/python1/Blog/Hblog/views.py", line 36, in get_context_data
+    context = super(BaseMixin, self).get_context_data(**kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 119, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(queryset, page_size)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 69, in paginate_queryset
+    page = paginator.page(page_number)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 70, in page
+    number = self.validate_number(number)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 48, in validate_number
+    if number > self.num_pages:
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 97, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 91, in count
+    return c()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/query.py", line 392, in count
+    return self.query.get_count(using=self.db)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 504, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 489, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1087, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 488, in as_sql
+    from_, f_params = self.get_from_clause()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 760, in get_from_clause
+    clause_sql, clause_params = self.compile(from_clause)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 405, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/datastructures.py", line 159, in as_sql
+    base_sql = compiler.quote_name_unless_alias(self.table_name)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 396, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+[2019-08-02 11:51:27,171] [ERROR] basehttp : "GET / HTTP/1.1" 500 27
+[2019-08-02 11:51:27,171] [ERROR] basehttp : "GET / HTTP/1.1" 500 27
+[2019-08-02 11:51:26,381] [ERROR] log : Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 157, in get
+    context = self.get_context_data()
+  File "/home/poang/PycharmProjects/python1/Blog/Hblog/views.py", line 73, in get_context_data
+    return super(IndexView, self).get_context_data(**kwargs)
+  File "/home/poang/PycharmProjects/python1/Blog/Hblog/views.py", line 36, in get_context_data
+    context = super(BaseMixin, self).get_context_data(**kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 119, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(queryset, page_size)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 69, in paginate_queryset
+    page = paginator.page(page_number)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 70, in page
+    number = self.validate_number(number)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 48, in validate_number
+    if number > self.num_pages:
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 97, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 91, in count
+    return c()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/query.py", line 392, in count
+    return self.query.get_count(using=self.db)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 504, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 489, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1087, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 488, in as_sql
+    from_, f_params = self.get_from_clause()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 760, in get_from_clause
+    clause_sql, clause_params = self.compile(from_clause)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 405, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/datastructures.py", line 159, in as_sql
+    base_sql = compiler.quote_name_unless_alias(self.table_name)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 396, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+[2019-08-02 11:51:26,381] [ERROR] log : Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 157, in get
+    context = self.get_context_data()
+  File "/home/poang/PycharmProjects/python1/Blog/Hblog/views.py", line 73, in get_context_data
+    return super(IndexView, self).get_context_data(**kwargs)
+  File "/home/poang/PycharmProjects/python1/Blog/Hblog/views.py", line 36, in get_context_data
+    context = super(BaseMixin, self).get_context_data(**kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 119, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(queryset, page_size)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 69, in paginate_queryset
+    page = paginator.page(page_number)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 70, in page
+    number = self.validate_number(number)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 48, in validate_number
+    if number > self.num_pages:
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 97, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 91, in count
+    return c()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/query.py", line 392, in count
+    return self.query.get_count(using=self.db)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 504, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 489, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1087, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 488, in as_sql
+    from_, f_params = self.get_from_clause()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 760, in get_from_clause
+    clause_sql, clause_params = self.compile(from_clause)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 405, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/datastructures.py", line 159, in as_sql
+    base_sql = compiler.quote_name_unless_alias(self.table_name)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 396, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+[2019-08-02 11:51:27,256] [ERROR] basehttp : "GET / HTTP/1.1" 500 27
+[2019-08-02 11:51:27,256] [ERROR] basehttp : "GET / HTTP/1.1" 500 27
+[2019-08-02 11:51:27,569] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 77
+[2019-08-02 11:51:27,569] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 77
+[2019-08-02 11:57:56,133] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-02 11:57:56,133] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-02 11:57:58,810] [ERROR] log : Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 157, in get
+    context = self.get_context_data()
+  File "/home/poang/PycharmProjects/python1/Blog/Hblog/views.py", line 73, in get_context_data
+    return super(IndexView, self).get_context_data(**kwargs)
+  File "/home/poang/PycharmProjects/python1/Blog/Hblog/views.py", line 36, in get_context_data
+    context = super(BaseMixin, self).get_context_data(**kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 119, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(queryset, page_size)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 69, in paginate_queryset
+    page = paginator.page(page_number)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 70, in page
+    number = self.validate_number(number)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 48, in validate_number
+    if number > self.num_pages:
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 97, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 91, in count
+    return c()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/query.py", line 392, in count
+    return self.query.get_count(using=self.db)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 504, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 489, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1087, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 488, in as_sql
+    from_, f_params = self.get_from_clause()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 760, in get_from_clause
+    clause_sql, clause_params = self.compile(from_clause)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 405, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/datastructures.py", line 159, in as_sql
+    base_sql = compiler.quote_name_unless_alias(self.table_name)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 396, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+[2019-08-02 11:57:58,810] [ERROR] log : Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 157, in get
+    context = self.get_context_data()
+  File "/home/poang/PycharmProjects/python1/Blog/Hblog/views.py", line 73, in get_context_data
+    return super(IndexView, self).get_context_data(**kwargs)
+  File "/home/poang/PycharmProjects/python1/Blog/Hblog/views.py", line 36, in get_context_data
+    context = super(BaseMixin, self).get_context_data(**kwargs)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 119, in get_context_data
+    paginator, page, queryset, is_paginated = self.paginate_queryset(queryset, page_size)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/views/generic/list.py", line 69, in paginate_queryset
+    page = paginator.page(page_number)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 70, in page
+    number = self.validate_number(number)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 48, in validate_number
+    if number > self.num_pages:
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 97, in num_pages
+    if self.count == 0 and not self.allow_empty_first_page:
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/utils/functional.py", line 80, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/core/paginator.py", line 91, in count
+    return c()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/query.py", line 392, in count
+    return self.query.get_count(using=self.db)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 504, in get_count
+    number = obj.get_aggregation(using, ['__count'])['__count']
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/query.py", line 489, in get_aggregation
+    result = compiler.execute_sql(SINGLE)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1087, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 488, in as_sql
+    from_, f_params = self.get_from_clause()
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 760, in get_from_clause
+    clause_sql, clause_params = self.compile(from_clause)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 405, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/datastructures.py", line 159, in as_sql
+    base_sql = compiler.quote_name_unless_alias(self.table_name)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 396, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+  File "/home/poang/PycharmProjects/python1/venv/lib/python3.6/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+[2019-08-02 11:57:58,884] [ERROR] basehttp : "GET / HTTP/1.1" 500 27
+[2019-08-02 11:57:58,884] [ERROR] basehttp : "GET / HTTP/1.1" 500 27
+[2019-08-02 12:37:16,748] [INFO] autoreload : /home/poang/PycharmProjects/python1/Blog/Blog/settings.py changed, reloading.
+[2019-08-02 12:37:16,748] [INFO] autoreload : /home/poang/PycharmProjects/python1/Blog/Blog/settings.py changed, reloading.
+[2019-08-02 12:37:17,791] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-02 12:37:17,791] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-02 21:40:24,547] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-02 21:40:24,547] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-02 22:15:44,393] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-02 22:15:44,393] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-02 22:16:12,495] [INFO] basehttp : "GET / HTTP/1.1" 200 25322
+[2019-08-02 22:16:12,495] [INFO] basehttp : "GET / HTTP/1.1" 200 25322
+[2019-08-02 22:16:12,959] [WARNING] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 77
+[2019-08-02 22:16:12,959] [WARNING] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 404 77
+[2019-08-02 22:16:12,959] [WARNING] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 77
+[2019-08-02 22:16:12,961] [WARNING] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 404 77
+[2019-08-02 22:16:12,959] [WARNING] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 404 77
+[2019-08-02 22:16:12,961] [WARNING] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 404 77
+[2019-08-02 22:16:12,962] [WARNING] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 404 77
+[2019-08-02 22:16:12,962] [WARNING] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 404 77
+[2019-08-02 22:16:12,961] [WARNING] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 404 77
+[2019-08-02 22:16:12,968] [WARNING] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 404 77
+[2019-08-02 22:16:12,961] [WARNING] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 404 77
+[2019-08-02 22:16:12,971] [WARNING] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 404 77
+[2019-08-02 22:16:12,962] [WARNING] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 404 77
+[2019-08-02 22:16:12,980] [WARNING] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 77
+[2019-08-02 22:16:12,968] [WARNING] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 404 77
+[2019-08-02 22:16:12,980] [WARNING] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 404 77
+[2019-08-02 22:16:12,962] [WARNING] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 404 77
+[2019-08-02 22:16:12,971] [WARNING] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 404 77
+[2019-08-02 22:16:12,984] [WARNING] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 404 77
+[2019-08-02 22:16:12,984] [WARNING] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 404 77
+[2019-08-02 22:16:12,989] [WARNING] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 404 77
+[2019-08-02 22:16:12,989] [WARNING] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 404 77
+[2019-08-02 22:16:12,980] [WARNING] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 404 77
+[2019-08-02 22:16:12,980] [WARNING] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 77
+[2019-08-02 22:16:13,015] [WARNING] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 404 77
+[2019-08-02 22:16:13,015] [WARNING] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 404 77
+[2019-08-02 22:16:13,018] [WARNING] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 77
+[2019-08-02 22:16:13,018] [WARNING] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 77
+[2019-08-02 22:16:13,021] [WARNING] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 404 77
+[2019-08-02 22:16:13,021] [WARNING] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 404 77
+[2019-08-02 22:16:13,025] [WARNING] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 404 77
+[2019-08-02 22:16:13,025] [WARNING] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 404 77
+[2019-08-02 22:16:13,030] [WARNING] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 404 77
+[2019-08-02 22:16:13,030] [WARNING] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 404 77
+[2019-08-02 22:16:13,033] [WARNING] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 404 77
+[2019-08-02 22:16:13,033] [WARNING] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 404 77
+[2019-08-02 22:16:13,067] [WARNING] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 404 77
+[2019-08-02 22:16:13,067] [WARNING] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 404 77
+[2019-08-02 22:16:13,086] [WARNING] basehttp : "GET /static/img/article/django.png HTTP/1.1" 404 77
+[2019-08-02 22:16:13,086] [WARNING] basehttp : "GET /static/img/article/django.png HTTP/1.1" 404 77
+[2019-08-02 22:16:13,094] [WARNING] basehttp : "GET /static/img/carousel/%E7%88%AC%E8%99%AB.jpg HTTP/1.1" 404 77
+[2019-08-02 22:16:13,101] [WARNING] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 404 77
+[2019-08-02 22:16:13,102] [WARNING] basehttp : "GET /static/img/article/django.jpg HTTP/1.1" 404 77
+[2019-08-02 22:16:13,102] [WARNING] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 404 77
+[2019-08-02 22:16:13,094] [WARNING] basehttp : "GET /static/img/carousel/%E7%88%AC%E8%99%AB.jpg HTTP/1.1" 404 77
+[2019-08-02 22:16:13,101] [WARNING] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 404 77
+[2019-08-02 22:16:13,102] [WARNING] basehttp : "GET /static/img/article/django.jpg HTTP/1.1" 404 77
+[2019-08-02 22:16:13,112] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 77
+[2019-08-02 22:16:13,102] [WARNING] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 404 77
+[2019-08-02 22:16:13,112] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 77
+[2019-08-02 22:16:13,205] [WARNING] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 404 77
+[2019-08-02 22:16:13,205] [WARNING] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 404 77
+[2019-08-02 22:16:13,240] [WARNING] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 404 77
+[2019-08-02 22:16:13,240] [WARNING] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 404 77
+[2019-08-02 22:16:13,283] [WARNING] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 404 77
+[2019-08-02 22:16:13,283] [WARNING] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 404 77
+[2019-08-02 22:16:13,323] [WARNING] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 77
+[2019-08-02 22:16:13,323] [WARNING] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 77
+[2019-08-02 22:16:13,930] [WARNING] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 404 77
+[2019-08-02 22:16:13,930] [WARNING] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 404 77
+[2019-08-02 22:16:14,892] [WARNING] basehttp : "GET /static/img/carousel/%E7%88%AC%E8%99%AB.jpg HTTP/1.1" 404 77
+[2019-08-02 22:16:14,892] [WARNING] basehttp : "GET /static/img/carousel/%E7%88%AC%E8%99%AB.jpg HTTP/1.1" 404 77
+[2019-08-02 22:16:14,899] [WARNING] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 404 77
+[2019-08-02 22:16:14,899] [WARNING] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 404 77
+[2019-08-02 22:16:14,909] [WARNING] basehttp : "GET /static/img/article/django.jpg HTTP/1.1" 404 77
+[2019-08-02 22:16:14,909] [WARNING] basehttp : "GET /static/img/article/django.jpg HTTP/1.1" 404 77
+[2019-08-02 22:16:14,915] [WARNING] basehttp : "GET /static/img/article/django.png HTTP/1.1" 404 77
+[2019-08-02 22:16:14,915] [WARNING] basehttp : "GET /static/img/article/django.png HTTP/1.1" 404 77
+[2019-08-02 22:16:15,448] [WARNING] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 404 77
+[2019-08-02 22:16:15,448] [WARNING] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 404 77
+[2019-08-02 22:16:15,537] [WARNING] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 404 77
+[2019-08-02 22:16:15,537] [WARNING] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 404 77
+[2019-08-02 22:16:15,640] [WARNING] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 404 77
+[2019-08-02 22:16:15,641] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 77
+[2019-08-02 22:16:15,641] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 77
+[2019-08-02 22:16:15,640] [WARNING] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 404 77
+[2019-08-02 22:16:15,641] [WARNING] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 404 77
+[2019-08-02 22:16:15,641] [WARNING] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 404 77
+[2019-08-03 11:26:47,976] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-03 11:26:47,976] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-03 11:27:03,083] [INFO] basehttp : "GET / HTTP/1.1" 200 25322
+[2019-08-03 11:27:03,083] [INFO] basehttp : "GET / HTTP/1.1" 200 25322
+[2019-08-03 11:27:03,484] [WARNING] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 404 77
+[2019-08-03 11:27:03,484] [WARNING] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 404 77
+[2019-08-03 11:27:03,497] [WARNING] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 77
+[2019-08-03 11:27:03,497] [WARNING] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 77
+[2019-08-03 11:27:03,501] [WARNING] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,501] [WARNING] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,503] [WARNING] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 404 77
+[2019-08-03 11:27:03,503] [WARNING] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,505] [WARNING] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 404 77
+[2019-08-03 11:27:03,505] [WARNING] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 404 77
+[2019-08-03 11:27:03,507] [WARNING] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 404 77
+[2019-08-03 11:27:03,507] [WARNING] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,513] [WARNING] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,503] [WARNING] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 404 77
+[2019-08-03 11:27:03,507] [WARNING] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 404 77
+[2019-08-03 11:27:03,518] [WARNING] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,503] [WARNING] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,528] [WARNING] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,513] [WARNING] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,507] [WARNING] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,528] [WARNING] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,518] [WARNING] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,531] [WARNING] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,531] [WARNING] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,543] [WARNING] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,543] [WARNING] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,585] [WARNING] basehttp : "GET /static/img/article/django.jpg HTTP/1.1" 404 77
+[2019-08-03 11:27:03,585] [WARNING] basehttp : "GET /static/img/article/django.jpg HTTP/1.1" 404 77
+[2019-08-03 11:27:03,586] [WARNING] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 404 77
+[2019-08-03 11:27:03,587] [WARNING] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 404 77
+[2019-08-03 11:27:03,591] [WARNING] basehttp : "GET /static/img/carousel/%E7%88%AC%E8%99%AB.jpg HTTP/1.1" 404 77
+[2019-08-03 11:27:03,587] [WARNING] basehttp : "GET /static/img/article/django.png HTTP/1.1" 404 77
+[2019-08-03 11:27:03,586] [WARNING] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 404 77
+[2019-08-03 11:27:03,587] [WARNING] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 404 77
+[2019-08-03 11:27:03,593] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 77
+[2019-08-03 11:27:03,591] [WARNING] basehttp : "GET /static/img/carousel/%E7%88%AC%E8%99%AB.jpg HTTP/1.1" 404 77
+[2019-08-03 11:27:03,587] [WARNING] basehttp : "GET /static/img/article/django.png HTTP/1.1" 404 77
+[2019-08-03 11:27:03,593] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 77
+[2019-08-03 11:27:03,656] [WARNING] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,656] [WARNING] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,707] [WARNING] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,707] [WARNING] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,717] [WARNING] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,717] [WARNING] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,780] [WARNING] basehttp : "GET /static/img/carousel/%E7%88%AC%E8%99%AB.jpg HTTP/1.1" 404 77
+[2019-08-03 11:27:03,780] [WARNING] basehttp : "GET /static/img/carousel/%E7%88%AC%E8%99%AB.jpg HTTP/1.1" 404 77
+[2019-08-03 11:27:03,783] [WARNING] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 404 77
+[2019-08-03 11:27:03,783] [WARNING] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 404 77
+[2019-08-03 11:27:03,785] [WARNING] basehttp : "GET /static/img/article/django.png HTTP/1.1" 404 77
+[2019-08-03 11:27:03,785] [WARNING] basehttp : "GET /static/img/article/django.png HTTP/1.1" 404 77
+[2019-08-03 11:27:03,788] [WARNING] basehttp : "GET /static/img/article/django.jpg HTTP/1.1" 404 77
+[2019-08-03 11:27:03,788] [WARNING] basehttp : "GET /static/img/article/django.jpg HTTP/1.1" 404 77
+[2019-08-03 11:27:03,790] [WARNING] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 404 77
+[2019-08-03 11:27:03,790] [WARNING] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 404 77
+[2019-08-03 11:27:04,409] [WARNING] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 404 77
+[2019-08-03 11:27:04,409] [WARNING] basehttp : "GET /static/img/favicon.ico HTTP/1.1" 404 77
+[2019-08-03 11:27:07,611] [WARNING] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 404 77
+[2019-08-03 11:27:07,611] [WARNING] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 404 77
+[2019-08-03 11:27:07,659] [WARNING] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 404 77
+[2019-08-03 11:27:07,659] [WARNING] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 404 77
+[2019-08-03 11:27:07,673] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 77
+[2019-08-03 11:27:07,673] [WARNING] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 404 77
+[2019-08-03 11:27:07,690] [WARNING] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 404 77
+[2019-08-03 11:27:07,690] [WARNING] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 404 77
+[2019-08-03 11:30:17,750] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-03 11:30:17,750] [INFO] autoreload : Watching for file changes with StatReloader
+[2019-08-03 11:30:22,884] [INFO] basehttp : "GET / HTTP/1.1" 200 25322
+[2019-08-03 11:30:22,884] [INFO] basehttp : "GET / HTTP/1.1" 200 25322
+[2019-08-03 11:30:23,775] [INFO] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 200 9363
+[2019-08-03 11:30:23,775] [INFO] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 200 9363
+[2019-08-03 11:30:23,778] [INFO] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 200 2382
+[2019-08-03 11:30:23,778] [INFO] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 200 2382
+[2019-08-03 11:30:23,787] [INFO] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 200 1556
+[2019-08-03 11:30:23,787] [INFO] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 200 1556
+[2019-08-03 11:30:23,796] [INFO] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 200 3121
+[2019-08-03 11:30:23,796] [INFO] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 200 3121
+[2019-08-03 11:30:23,798] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 200 15892
+[2019-08-03 11:30:23,798] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 200 15892
+[2019-08-03 11:30:23,800] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 200 2102
+[2019-08-03 11:30:23,800] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 200 2102
+[2019-08-03 11:30:23,809] [INFO] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 200 84320
+[2019-08-03 11:30:23,809] [INFO] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 200 84320
+[2019-08-03 11:30:23,816] [INFO] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 117150
+[2019-08-03 11:30:23,816] [INFO] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 117150
+[2019-08-03 11:30:23,817] [INFO] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 35452
+[2019-08-03 11:30:23,817] [INFO] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 35452
+[2019-08-03 11:30:23,825] [INFO] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 200 621
+[2019-08-03 11:30:23,825] [INFO] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 200 621
+[2019-08-03 11:30:23,826] [INFO] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 200 43893
+[2019-08-03 11:30:23,826] [INFO] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 200 43893
+[2019-08-03 11:30:23,850] [INFO] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 200 10849
+[2019-08-03 11:30:23,850] [INFO] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 200 10849
+[2019-08-03 11:30:23,862] [INFO] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 200 131433
+[2019-08-03 11:30:23,862] [INFO] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 200 131433
+[2019-08-03 11:30:23,934] [INFO] basehttp : "GET /static/img/carousel/%E7%88%AC%E8%99%AB.jpg HTTP/1.1" 200 55896
+[2019-08-03 11:30:23,934] [INFO] basehttp : "GET /static/img/carousel/%E7%88%AC%E8%99%AB.jpg HTTP/1.1" 200 55896
+[2019-08-03 11:30:23,945] [INFO] basehttp : "GET /static/img/article/django.png HTTP/1.1" 200 28622
+[2019-08-03 11:30:23,945] [INFO] basehttp : "GET /static/img/article/django.png HTTP/1.1" 200 28622
+[2019-08-03 11:30:23,959] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 200 20284
+[2019-08-03 11:30:23,959] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 200 20284
+[2019-08-03 11:30:23,972] [INFO] basehttp : "GET /static/img/article/django.jpg HTTP/1.1" 200 8798
+[2019-08-03 11:30:23,972] [INFO] basehttp : "GET /static/img/article/django.jpg HTTP/1.1" 200 8798
+[2019-08-03 11:30:24,018] [INFO] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 200 580231
+[2019-08-03 11:30:24,018] [INFO] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 200 580231
+[2019-08-03 11:30:24,027] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 200 24263
+[2019-08-03 11:30:24,027] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 200 24263
+[2019-08-03 11:30:24,478] [INFO] basehttp : "GET /static/img/bg.jpg HTTP/1.1" 200 49123
+[2019-08-03 11:30:24,478] [INFO] basehttp : "GET /static/img/bg.jpg HTTP/1.1" 200 49123
+[2019-08-03 11:30:24,604] [INFO] basehttp : "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[2019-08-03 11:30:24,604] [INFO] basehttp : "GET /static/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 200 18028
+[2019-08-03 11:30:48,359] [INFO] basehttp : "POST /usercontrol/login HTTP/1.1" 200 76
+[2019-08-03 11:30:48,359] [INFO] basehttp : "POST /usercontrol/login HTTP/1.1" 200 76
+[2019-08-03 11:30:59,697] [INFO] basehttp : "POST /usercontrol/login HTTP/1.1" 200 14
+[2019-08-03 11:30:59,697] [INFO] basehttp : "POST /usercontrol/login HTTP/1.1" 200 14
+[2019-08-03 11:31:00,340] [INFO] basehttp : "GET / HTTP/1.1" 200 26601
+[2019-08-03 11:31:00,340] [INFO] basehttp : "GET / HTTP/1.1" 200 26601
+[2019-08-03 11:31:00,490] [INFO] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 304 0
+[2019-08-03 11:31:00,490] [INFO] basehttp : "GET /static/css/vmaig.css HTTP/1.1" 304 0
+[2019-08-03 11:31:00,492] [INFO] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-08-03 11:31:00,492] [INFO] basehttp : "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+[2019-08-03 11:31:00,499] [INFO] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 304 0
+[2019-08-03 11:31:00,499] [INFO] basehttp : "GET /static/css/vmaig_comments.css HTTP/1.1" 304 0
+[2019-08-03 11:31:00,505] [INFO] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 304 0
+[2019-08-03 11:31:00,505] [INFO] basehttp : "GET /static/css/vmaig_auth.css HTTP/1.1" 304 0
+[2019-08-03 11:31:00,511] [INFO] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,511] [INFO] basehttp : "GET /static/jquery/jquery.cookie.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,524] [INFO] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,525] [INFO] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,526] [INFO] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,524] [INFO] basehttp : "GET /static/jquery/jquery-2.1.3.min.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,525] [INFO] basehttp : "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,548] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,526] [INFO] basehttp : "GET /static/jquery/jquery.form.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,553] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 304 0
+[2019-08-03 11:31:00,548] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,559] [INFO] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,559] [INFO] basehttp : "GET /static/js/d3.layout.cloud.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,553] [INFO] basehttp : "GET /static/jquery/jquery.Jcrop.min.css HTTP/1.1" 304 0
+[2019-08-03 11:31:00,565] [INFO] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,565] [INFO] basehttp : "GET /static/lib/d3/d3.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,572] [INFO] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,572] [INFO] basehttp : "GET /static/js/vmaig.js HTTP/1.1" 304 0
+[2019-08-03 11:31:00,788] [INFO] basehttp : "GET /static/img/bg.jpg HTTP/1.1" 304 0
+[2019-08-03 11:31:00,788] [INFO] basehttp : "GET /static/img/bg.jpg HTTP/1.1" 304 0
+[2019-08-03 11:31:00,808] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-08-03 11:31:00,808] [INFO] basehttp : "GET /static/tx/tx_100x100_1.png HTTP/1.1" 304 0
+[2019-08-03 11:31:00,813] [INFO] basehttp : "GET /static/img/carousel/%E7%88%AC%E8%99%AB.jpg HTTP/1.1" 304 0
+[2019-08-03 11:31:00,813] [INFO] basehttp : "GET /static/img/carousel/%E7%88%AC%E8%99%AB.jpg HTTP/1.1" 304 0
+[2019-08-03 11:31:00,866] [INFO] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 304 0
+[2019-08-03 11:31:00,866] [INFO] basehttp : "GET /static/img/carousel/django.jpeg HTTP/1.1" 304 0
+[2019-08-03 11:31:00,877] [INFO] basehttp : "GET /static/img/article/django.png HTTP/1.1" 304 0
+[2019-08-03 11:31:00,881] [INFO] basehttp : "GET /static/img/article/django.jpg HTTP/1.1" 304 0
+[2019-08-03 11:31:00,877] [INFO] basehttp : "GET /static/img/article/django.png HTTP/1.1" 304 0
+[2019-08-03 11:31:00,881] [INFO] basehttp : "GET /static/img/article/django.jpg HTTP/1.1" 304 0
+[2019-08-03 11:31:01,410] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 304 0
+[2019-08-03 11:31:01,410] [INFO] basehttp : "GET /static/tx/tx_100x100_5.png HTTP/1.1" 304 0
+[2019-08-03 11:31:14,993] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19256
+[2019-08-03 11:31:14,993] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19256
+[2019-08-03 11:31:15,470] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19256
+[2019-08-03 11:31:15,470] [INFO] basehttp : "GET /user/changetx HTTP/1.1" 200 19256
+[2019-08-03 11:31:15,658] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-08-03 11:31:15,658] [WARNING] basehttp : "GET /static/jquery/Jcrop.gif HTTP/1.1" 404 1672
+[2019-08-03 11:31:39,165] [INFO] basehttp : "GET / HTTP/1.1" 200 26601
+[2019-08-03 11:31:39,165] [INFO] basehttp : "GET / HTTP/1.1" 200 26601
+[2019-08-03 11:31:48,437] [INFO] basehttp : "GET /article/scrapy_redis.html HTTP/1.1" 200 47323
+[2019-08-03 11:31:48,437] [INFO] basehttp : "GET /article/scrapy_redis.html HTTP/1.1" 200 47323
+[2019-08-03 11:31:48,632] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushCpp.js HTTP/1.1" 200 5284
+[2019-08-03 11:31:48,632] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushCpp.js HTTP/1.1" 200 5284
+[2019-08-03 11:31:48,641] [INFO] basehttp : "GET /static/syntaxhighlighter/styles/shCoreDefault.css HTTP/1.1" 200 8704
+[2019-08-03 11:31:48,641] [INFO] basehttp : "GET /static/syntaxhighlighter/styles/shCoreDefault.css HTTP/1.1" 200 8704
+[2019-08-03 11:31:48,661] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushJava.js HTTP/1.1" 200 2101
+[2019-08-03 11:31:48,661] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushJava.js HTTP/1.1" 200 2101
+[2019-08-03 11:31:48,666] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shCore.js HTTP/1.1" 200 16175
+[2019-08-03 11:31:48,666] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shCore.js HTTP/1.1" 200 16175
+[2019-08-03 11:31:48,667] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushPowerShell.js HTTP/1.1" 200 3911
+[2019-08-03 11:31:48,667] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushPowerShell.js HTTP/1.1" 200 3911
+[2019-08-03 11:31:48,667] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushXml.js HTTP/1.1" 200 1998
+[2019-08-03 11:31:48,667] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushXml.js HTTP/1.1" 200 1998
+[2019-08-03 11:31:48,669] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushJScript.js HTTP/1.1" 200 1649
+[2019-08-03 11:31:48,669] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushJScript.js HTTP/1.1" 200 1649
+[2019-08-03 11:31:48,684] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushPython.js HTTP/1.1" 200 2437
+[2019-08-03 11:31:48,684] [INFO] basehttp : "GET /static/syntaxhighlighter/scripts/shBrushPython.js HTTP/1.1" 200 2437
+[2019-08-03 11:31:48,709] [WARNING] basehttp : "GET /images/itjuzi_0.png HTTP/1.1" 404 5175
+[2019-08-03 11:31:48,709] [WARNING] basehttp : "GET /images/itjuzi_0.png HTTP/1.1" 404 5175
+[2019-08-03 11:31:48,723] [WARNING] basehttp : "GET /images/itjuzi_1.png HTTP/1.1" 404 5175
+[2019-08-03 11:31:48,723] [WARNING] basehttp : "GET /images/itjuzi_1.png HTTP/1.1" 404 5175
+[2019-08-03 11:31:48,844] [WARNING] basehttp : "GET /images/itjuzi_1.png HTTP/1.1" 404 5175
+[2019-08-03 11:31:48,844] [WARNING] basehttp : "GET /images/itjuzi_1.png HTTP/1.1" 404 5175
+[2019-08-03 11:31:48,851] [WARNING] basehttp : "GET /images/itjuzi_0.png HTTP/1.1" 404 5175
+[2019-08-03 11:31:48,851] [WARNING] basehttp : "GET /images/itjuzi_0.png HTTP/1.1" 404 5175
+[2019-08-03 11:33:10,002] [INFO] basehttp : "GET / HTTP/1.1" 200 26601
+[2019-08-03 11:33:10,002] [INFO] basehttp : "GET / HTTP/1.1" 200 26601
+[2019-08-03 11:33:18,993] [INFO] basehttp : "GET /admin HTTP/1.1" 301 0
+[2019-08-03 11:33:18,993] [INFO] basehttp : "GET /admin HTTP/1.1" 301 0
+[2019-08-03 11:33:20,006] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10454
+[2019-08-03 11:33:20,006] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10454
+[2019-08-03 11:33:20,207] [INFO] basehttp : "GET /static/tinymce/tinymce.min.js HTTP/1.1" 200 307378
+[2019-08-03 11:33:20,207] [INFO] basehttp : "GET /static/tinymce/tinymce.min.js HTTP/1.1" 200 307378
+[2019-08-03 11:33:20,239] [INFO] basehttp : "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[2019-08-03 11:33:20,239] [INFO] basehttp : "GET /static/admin/css/base.css HTTP/1.1" 200 16378
+[2019-08-03 11:33:20,253] [INFO] basehttp : "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[2019-08-03 11:33:20,253] [INFO] basehttp : "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[2019-08-03 11:33:20,282] [INFO] basehttp : "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2019-08-03 11:33:20,282] [INFO] basehttp : "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2019-08-03 11:33:20,466] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2019-08-03 11:33:20,466] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2019-08-03 11:33:20,493] [INFO] basehttp : "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2019-08-03 11:33:20,493] [INFO] basehttp : "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2019-08-03 11:33:20,494] [INFO] basehttp : "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2019-08-03 11:33:20,494] [INFO] basehttp : "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2019-08-03 11:33:20,525] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2019-08-03 11:33:20,525] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2019-08-03 11:33:20,608] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2019-08-03 11:33:20,608] [INFO] basehttp : "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2019-08-03 11:33:20,758] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 5151
+[2019-08-03 11:33:20,758] [WARNING] basehttp : "GET /favicon.ico HTTP/1.1" 404 5151
+[2019-08-03 11:33:31,307] [INFO] basehttp : "GET /admin/blog_auth/vmaiguser/ HTTP/1.1" 200 7847
+[2019-08-03 11:33:31,307] [INFO] basehttp : "GET /admin/blog_auth/vmaiguser/ HTTP/1.1" 200 7847
+[2019-08-03 11:33:31,699] [INFO] basehttp : "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[2019-08-03 11:33:31,699] [INFO] basehttp : "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[2019-08-03 11:33:31,738] [INFO] basehttp : "GET /static/admin/js/core.js HTTP/1.1" 200 7099
+[2019-08-03 11:33:31,738] [INFO] basehttp : "GET /static/admin/js/core.js HTTP/1.1" 200 7099
+[2019-08-03 11:33:31,740] [INFO] basehttp : "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2019-08-03 11:33:31,740] [INFO] basehttp : "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[2019-08-03 11:33:31,750] [INFO] basehttp : "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[2019-08-03 11:33:31,750] [INFO] basehttp : "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+[2019-08-03 11:33:31,760] [INFO] basehttp : "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+[2019-08-03 11:33:31,774] [INFO] basehttp : "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271817
+[2019-08-03 11:33:31,776] [INFO] basehttp : "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[2019-08-03 11:33:31,777] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-03 11:33:31,774] [INFO] basehttp : "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271817
+[2019-08-03 11:33:31,787] [INFO] basehttp : "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+[2019-08-03 11:33:31,787] [INFO] basehttp : "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+[2019-08-03 11:33:31,776] [INFO] basehttp : "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+[2019-08-03 11:33:31,760] [INFO] basehttp : "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+[2019-08-03 11:33:31,777] [INFO] basehttp : "GET /admin/jsi18n/ HTTP/1.1" 200 7722
+[2019-08-03 11:33:31,817] [INFO] basehttp : "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2019-08-03 11:33:31,817] [INFO] basehttp : "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[2019-08-03 11:33:31,853] [INFO] basehttp : "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[2019-08-03 11:33:31,855] [INFO] basehttp : "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2019-08-03 11:33:31,853] [INFO] basehttp : "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[2019-08-03 11:33:31,855] [INFO] basehttp : "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2019-08-03 11:33:31,882] [INFO] basehttp : "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[2019-08-03 11:33:31,882] [INFO] basehttp : "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[2019-08-03 11:33:32,050] [INFO] basehttp : "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2019-08-03 11:33:32,050] [INFO] basehttp : "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2019-08-03 11:33:32,059] [INFO] basehttp : "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2019-08-03 11:33:32,059] [INFO] basehttp : "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[2019-08-03 11:33:52,418] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10454
+[2019-08-03 11:33:52,418] [INFO] basehttp : "GET /admin/ HTTP/1.1" 200 10454
