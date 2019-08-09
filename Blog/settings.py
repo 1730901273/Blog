@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '8t62)ftc4(%7jn81urk5)+j3z5btdqwehn*m!a%&nvfhr(k+95'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -222,7 +222,7 @@ CACHES = {
         }
     },
 }
-
+ 
 # 分页配置
 PAGE_NUM = 5
 

@@ -143,6 +143,7 @@ class Carousel(models.Model):
         ordering = ['-create_time']
 
 
+# 新闻的数据库模型
 class News(models.Model):
     title = models.CharField(max_length=100, verbose_name=u'标题')
     summary = models.TextField(verbose_name=u'摘要')
