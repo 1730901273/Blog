@@ -10,12 +10,12 @@
         {% endfor %}
     </ol>   
     <!-- 轮播（Carousel）项目 -->
-    <div class="carousel-inner">
+    <div class="carousel-inner">s
         {% for carousel_page in carousel_page_list %}
             {% if forloop.first%}
             <div class="item active">
                 <a href="{% url 'article-detail-view' carousel_page.article.en_title %}">
-                    <img src="{{carousel_page.img}}" alt="{{carousel_page.title}}">
+                    <img src="/meta/{{carousel_page.img}}" alt="{{carousel_page.title}}">
                     <div class="carousel-caption">
                         <h4>{{carousel_page.title}}</h4>
                         {% autoescape off%}
@@ -27,7 +27,7 @@
             {% else %}
             <div class="item">
                 <a href="{% url 'article-detail-view' carousel_page.article.en_title %}">
-                    <img src="{{carousel_page.img}}" alt="{{carousel_page.title}}">
+                    <img src="/meta/{{carousel_page.img}}" alt="{{carousel_page.title}}">
                     <div class="carousel-caption">
                         <h4>{{carousel_page.title}}</h4>
                         {% autoescape off%}

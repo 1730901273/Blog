@@ -87,8 +87,8 @@ DATABASES = {
         'NAME': 'myBlog',
         'USER': 'root',
         'PASSWORD': 'root123456',
-        'HOST': '10.12.4.242',
-        # 'HOST':'127.0.0.1',
+        # 'HOST': '10.10.113.89',
+        'HOST':'10.12.4.242',
         'PORT': '3306',
         # 避免映射数据库时出现警告
         'OPTIONS': {
@@ -249,3 +249,6 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 # 网站标题等内容配置
 WEBSITE_TITLE = u'Vblog'
 WEBSITE_WELCOME = u'欢迎来到Vblog'
+# 图片上传配置
+MEDIA_URL = '/meta/'
+MEDIA_ROOT = os.path.join(BASE_DIR,'meta')

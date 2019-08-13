@@ -21,7 +21,8 @@ from django.urls import reverse
 from django.contrib import admin
 
 from Hblog.models import article, News, Category, Column
-
+from django.conf import settings
+from django.conf.urls.static import static
 
 class StaticViewSitemap(Sitemap):
     priority = 1.0
@@ -85,4 +86,4 @@ urlpatterns = [
     url(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps},
         name='django.contrib.sitemaps.views.sitemap')
 
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)   #设置图片上传路径
