@@ -24,6 +24,7 @@ from Hblog.models import article, News, Category, Column
 from django.conf import settings
 from django.conf.urls.static import static
 
+
 class StaticViewSitemap(Sitemap):
     priority = 1.0
     changefreq = 'daily'

@@ -237,10 +237,11 @@ class CategoryView(BaseMixin, ListView):
 
 # 用户登录信息
 class UserView(BaseMixin, TemplateView):
-    # template_name = 'blog/user_getinfo.html'
+    template_name = 'blog/user_getinfo.html'
 
     def get(self, request, *args, **kwargs):
         try:
+            # 调用内置函数，判断是否登录
             if not request.user.is_authenticated:
                 logger.error(u'[UserView]用户未登陆')
                 return render(request, 'blog/login.html')
