@@ -254,12 +254,12 @@ class UserControl(View):
             return HttpResponse(u"上传头像错误", status=500)
 
         imgData = base64.b64decode(data)
+        """此处记录一个错，如果windows,filedir="Blog/static/tx/",而linux则用static/tx/"""
         filename = "tx_100x100_{}.png".format(request.user.id)
-        filedir = "Blog/static/tx/"
+        filedir = "static/tx/"
         static_root = getattr(settings, 'BASE_DIR', None)
         if static_root:
-            filedir = os.path.join(static_root, '/Blog/static/tx/')
-            # print(filedir)
+            filedir = os.path.join(static_root, 'static/tx/')
         if not os.path.exists(filedir):
             os.makedirs(filedir)
         path = os.path.join(filedir, filename)

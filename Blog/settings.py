@@ -28,7 +28,8 @@ ALLOWED_HOSTS = ['*']
 
 # Application definition
 
-INSTALLED_APPS = [
+INSTALLED_APPS = (
+    'simpleui',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -41,9 +42,9 @@ INSTALLED_APPS = [
     'blog_auth',
     'blog_comments',
     'blog_system',
-]
+)
 
-MIDDLEWARE = [
+MIDDLEWARE = (
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -51,7 +52,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-]
+    # 这个是中间组件访问统计
+    'VistCountMiddleware.VisitCountMiddleware',
+)
 
 ROOT_URLCONF = 'Blog.urls'
 # templates set model
@@ -88,7 +91,7 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': 'root123456',
         # 'HOST': '10.10.113.89',
-        'HOST':'10.12.4.242',
+        'HOST':'192.168.199.207',
         'PORT': '3306',
         # 避免映射数据库时出现警告
         'OPTIONS': {
